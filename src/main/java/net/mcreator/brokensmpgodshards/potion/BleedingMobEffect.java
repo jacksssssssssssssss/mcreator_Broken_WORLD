@@ -10,7 +10,7 @@ import net.mcreator.brokensmpgodshards.procedures.BleedingEffectStartedappliedPr
 
 public class BleedingMobEffect extends MobEffect {
 	public BleedingMobEffect() {
-		super(MobEffectCategory.NEUTRAL, -65485);
+		super(MobEffectCategory.NEUTRAL, -10092544);
 	}
 
 	@Override

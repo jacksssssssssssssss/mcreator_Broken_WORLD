@@ -3,9 +3,9 @@
   "_type": "potioneffect",
   "definition": {
     "effectName": "Bleeding",
-    "icon": "bleed",
+    "icon": "blood",
     "color": {
-      "value": -65485,
+      "value": -10092544,
       "falpha": 0.0
     },
     "isInstant": false,
