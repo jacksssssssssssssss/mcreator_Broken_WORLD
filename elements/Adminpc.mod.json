@@ -1,0 +1,149 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 431,
+    "height": 250,
+    "inventoryOffsetX": 990,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_admins_eye",
+          "text": {
+            "fixedValue": "The Admin's ETS"
+          },
+          "color": {
+            "value": -6711040,
+            "falpha": 0.0
+          },
+          "x": 176,
+          "y": 44
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_admin",
+          "image": "code_head.png",
+          "hoveredImage": "code_head.png",
+          "onClick": {
+            "name": "Adminpcbutten"
+          },
+          "x": 142,
+          "y": 67
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_server_icon",
+          "image": "sprite-0004.png",
+          "hoveredImage": "sprite-0004.png",
+          "onClick": {
+            "name": "Areaeffect"
+          },
+          "x": 176,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_disk",
+          "text": {
+            "fixedValue": "disk"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 183,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mimion",
+          "text": {
+            "fixedValue": "mimion"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 143,
+          "y": 98
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_sprite0004",
+          "image": "sprite-0004.png",
+          "hoveredImage": "sprite-0004.png",
+          "onClick": {
+            "name": "Diskday"
+          },
+          "x": 219,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_day",
+          "text": {
+            "fixedValue": "day"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 227,
+          "y": 97
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_sprite00041",
+          "image": "sprite-0004.png",
+          "hoveredImage": "sprite-0004.png",
+          "onClick": {
+            "name": "Nightdiskpro"
+          },
+          "x": 257,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_night",
+          "text": {
+            "fixedValue": "night"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 259,
+          "y": 98
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

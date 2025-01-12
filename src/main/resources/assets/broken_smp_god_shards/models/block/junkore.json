@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "broken_smp_god_shards:block/junk",
+    "up": "broken_smp_god_shards:block/junk",
+    "north": "broken_smp_god_shards:block/junk",
+    "east": "broken_smp_god_shards:block/junk",
+    "south": "broken_smp_god_shards:block/junk",
+    "west": "broken_smp_god_shards:block/junk",
+    "particle": "broken_smp_god_shards:block/fly"
+  },
+  "render_type": "solid"
+}

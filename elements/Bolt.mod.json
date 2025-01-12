@@ -1,0 +1,24 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Bullet"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.amethyst_block.chime"
+    },
+    "igniteFire": false,
+    "power": 10.0,
+    "damage": 4.5,
+    "knockback": 3,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "BoltProjectileHitsBlock"
+    }
+  }
+}

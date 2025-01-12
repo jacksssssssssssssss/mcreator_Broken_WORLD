@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    "b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "broken_smp_god_shards:betweenstone"
+    }
+  },
+  "result": {
+    "item": "broken_smp_god_shards:betweenthrowingknife",
+    "count": 6
+  }
+}

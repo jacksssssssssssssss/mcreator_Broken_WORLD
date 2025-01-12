@@ -1,0 +1,249 @@
+{
+  "_fv": 69,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "plantofye",
+    "textureBottom": "",
+    "customModelName": "eye:default",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "RESISTANCE",
+    "suspiciousStewDuration": 600,
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 7.0,
+        "my": 0.0,
+        "mz": 8.0,
+        "Mx": 9.0,
+        "My": 14.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 0.0,
+        "mz": 8.0,
+        "Mx": 7.0,
+        "My": 14.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 9.0,
+        "my": 3.5,
+        "mz": 8.0,
+        "Mx": 10.0,
+        "My": 14.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 5.5,
+        "my": 3.5,
+        "mz": 8.0,
+        "Mx": 6.0,
+        "My": 13.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 10.0,
+        "my": 8.0,
+        "mz": 8.0,
+        "Mx": 10.5,
+        "My": 13.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 3.5,
+        "mz": 8.0,
+        "Mx": 5.5,
+        "My": 13.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 10.5,
+        "my": 8.5,
+        "mz": 8.0,
+        "Mx": 11.0,
+        "My": 13.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 4.5,
+        "my": 9.5,
+        "mz": 8.0,
+        "Mx": 5.0,
+        "My": 12.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 11.0,
+        "my": 9.5,
+        "mz": 8.0,
+        "Mx": 11.5,
+        "My": 12.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 4.5,
+        "my": 3.0,
+        "mz": 8.0,
+        "Mx": 5.0,
+        "My": 4.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 10.0,
+        "my": 2.0,
+        "mz": 8.0,
+        "Mx": 10.5,
+        "My": 4.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 2.0,
+        "mz": 8.0,
+        "Mx": 4.5,
+        "My": 3.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 9.5,
+        "my": 3.0,
+        "mz": 8.0,
+        "Mx": 10.0,
+        "My": 3.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 3.5,
+        "my": 1.0,
+        "mz": 8.0,
+        "Mx": 4.0,
+        "My": 2.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 10.5,
+        "my": 1.5,
+        "mz": 8.0,
+        "Mx": 11.0,
+        "My": 2.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 11.0,
+        "my": 1.0,
+        "mz": 8.0,
+        "Mx": 11.5,
+        "My": 2.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 0.5,
+        "mz": 8.0,
+        "Mx": 3.5,
+        "My": 1.5,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 11.5,
+        "my": 0.5,
+        "mz": 8.0,
+        "Mx": 12.0,
+        "My": 1.5,
+        "Mz": 9.5,
+        "subtract": false
+      }
+    ],
+    "name": "Eyecore",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Brokenworld"
+      }
+    ],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 8,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "SCULK"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": true,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [],
+    "isBonemealable": false,
+    "frequencyOnChunks": 7,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TheINbetween"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 64,
+    "generateAtAnyHeight": false
+  }
+}

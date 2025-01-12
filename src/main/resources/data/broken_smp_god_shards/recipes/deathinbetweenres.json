@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "broken_smp_god_shards:between_ingot"
+    },
+    "b": {
+      "item": "broken_smp_god_shards:betweenstone"
+    }
+  },
+  "result": {
+    "item": "broken_smp_god_shards:script_of_knockback",
+    "count": 1
+  }
+}

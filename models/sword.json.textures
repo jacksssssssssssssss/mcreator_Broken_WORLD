@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "deathbringer"
+      },
+      "name": "default"
+    }
+  }
+}

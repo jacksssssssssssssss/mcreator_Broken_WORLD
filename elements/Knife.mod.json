@@ -1,0 +1,24 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Betweenthrowingknife"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 0.7,
+    "damage": 3.5,
+    "knockback": 3,
+    "entityModel": "Modelthrowing",
+    "customModelTexture": "between_throwinpng.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsEntity": {
+      "name": "KnifeProjectileHitsLivingEntity"
+    }
+  }
+}

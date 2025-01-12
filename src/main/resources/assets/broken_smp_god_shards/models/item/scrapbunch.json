@@ -1,0 +1,7 @@
+{
+  "parent": "broken_smp_god_shards:custom/scapss",
+  "textures": {
+    "0": "broken_smp_god_shards:block/scrapss",
+    "particle": "broken_smp_god_shards:item/junk"
+  }
+}

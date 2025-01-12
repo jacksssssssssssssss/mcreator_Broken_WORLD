@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "DELETE",
+    "keyBindingName": "Deathbetween",
+    "keyBindingCategoryKey": "misc",
+    "onKeyReleased": {
+      "name": "DeathbetweenOnKeyReleased"
+    }
+  }
+}

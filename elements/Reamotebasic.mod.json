@@ -1,0 +1,29 @@
+{
+  "_fv": 69,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Basic Remote tape",
+    "rarity": "RARE",
+    "texture": "disk-export",
+    "description": "2 out of 13",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:Brokenworld"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:basicreamote"
+    },
+    "lengthInTicks": 200,
+    "analogOutput": 0
+  }
+}

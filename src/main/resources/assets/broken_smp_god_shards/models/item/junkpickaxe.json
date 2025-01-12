@@ -1,0 +1,7 @@
+{
+  "parent": "broken_smp_god_shards:custom/junk_pic",
+  "textures": {
+    "0": "broken_smp_god_shards:block/junk_pic",
+    "particle": "minecraft:item/golden_pickaxe"
+  }
+}

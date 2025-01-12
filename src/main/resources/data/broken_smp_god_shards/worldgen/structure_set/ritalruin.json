@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "broken_smp_god_shards:ritalruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 30,
+    "salt": 334517452
+  }
+}

@@ -1,0 +1,3014 @@
+{
+  "mod_elements": [
+    {
+      "name": "BasicreamoteRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicreamote_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BasicreamoteRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Basicreamote",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicreamote",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BasicreamoteItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/basicreamote.json"
+        ]
+      }
+    },
+    {
+      "name": "Betweenstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/betweenstone.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenstone.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/betweenstone.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/betweenstone.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenstoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TheINbetween",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_i_nbetween",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/biome/the_i_nbetween.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/features/treedecorators/TheINbetweenLeaveDecorator.java",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/configured_feature/the_i_nbetween_tree.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/features/treedecorators/TheINbetweenTrunkDecorator.java",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/placed_feature/the_i_nbetween_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Ritral",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ritral",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritral.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritral.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritral.json"
+        ]
+      }
+    },
+    {
+      "name": "Thebetween",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thebetween",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ThebetweenItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/thebetween.json"
+        ]
+      }
+    },
+    {
+      "name": "Blood",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/particle/BloodParticle.java",
+          "src/main/resources/assets/broken_smp_god_shards/particles/blood.json"
+        ]
+      }
+    },
+    {
+      "name": "DeathbrigerLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbriger_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/DeathbrigerLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deathbriger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "script_of_knockback",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/script_of_knockback.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/DeathbrigerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bloods",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloods",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BloodsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BetweenIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/between_ingot.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Orebringer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orebringer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/block/orebringer.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/OrebringerBlock.java",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/orebringer.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/orebringer.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/orebringer.json"
+        ]
+      }
+    },
+    {
+      "name": "DeathbetweenOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbetween_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/DeathbetweenOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deathbetween",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbetween",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/network/DeathbetweenMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Countdown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "countdown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/CountdownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Script",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/particle/ScriptParticle.java",
+          "src/main/resources/assets/broken_smp_god_shards/particles/script.json"
+        ]
+      }
+    },
+    {
+      "name": "Dndenergy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dndenergy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/dndenergy.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/DndenergyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tools",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ToolsItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/tools.json"
+        ]
+      }
+    },
+    {
+      "name": "Fix",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fix",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/fix.json"
+        ]
+      }
+    },
+    {
+      "name": "Reamotebasic",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reamotebasic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/reamotebasic.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ReamotebasicItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Toolsres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toolsres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/toolsres.json"
+        ]
+      }
+    },
+    {
+      "name": "Rarereamote",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rarereamote",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/rarereamote.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/RarereamoteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RarereamoteRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rarereamote_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/RarereamoteRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Entity611",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_611",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/entity_611_biome_modifier.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/entity_611_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Entity611Renderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/Entity611Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Cultsquare",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cultsquare",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/cultsquare.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/cultsquare.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/cultsquare.json"
+        ]
+      }
+    },
+    {
+      "name": "Ritralnotlonly",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ritralnotlonly",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritralnotlonly.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritralnotlonly.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritralnotlonly.json"
+        ]
+      }
+    },
+    {
+      "name": "Ritalruin",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ritalruin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritalruin.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritalruin.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritalruin.json"
+        ]
+      }
+    },
+    {
+      "name": "Ritralhouse",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ritralhouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritralhouse.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritralhouse.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritralhouse.json"
+        ]
+      }
+    },
+    {
+      "name": "Entity611PlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_611_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/Entity611PlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Golemspawn",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemspawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/GolemspawnEntity.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/golemspawn_spawn_egg.json",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/golemspawn_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/GolemspawnRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Golemhelpertablet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemhelpertablet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/GolemhelpertabletItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/golemhelpertablet.json"
+        ]
+      }
+    },
+    {
+      "name": "Cooldowngolme",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldowngolme",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/CooldowngolmeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GolemOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/GolemOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Golem",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/network/GolemMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Deathinbetweenres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathinbetweenres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/deathinbetweenres.json"
+        ]
+      }
+    },
+    {
+      "name": "Hummanhaz",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hummanhaz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/HummanhazEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/HummanhazRenderer.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/hummanhaz_biome_modifier.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/hummanhaz_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/HummanhazEntityProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/bullet.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BulletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Betweenfish",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenfish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/BetweenfishRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/BetweenfishEntity.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenfish_spawn_egg.json",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/betweenfish_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Fish",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/fish.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/FishItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dndres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dndres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/dndres.json"
+        ]
+      }
+    },
+    {
+      "name": "Junk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/junk.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/JunkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Junks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/junks.json"
+        ]
+      }
+    },
+    {
+      "name": "Betweenlog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenlog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenlogBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenlog.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/betweenlog.json",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/betweenlog.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/betweenlog.json"
+        ]
+      }
+    },
+    {
+      "name": "Junkore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junkore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/junkore_biome_modifier.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/placed_feature/junkore.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/configured_feature/junkore.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/junkore.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/junkore.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/JunkoreBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/junkore.json"
+        ]
+      }
+    },
+    {
+      "name": "Lab1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lab_1.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/lab_1.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/lab_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Lavagang",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavagang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/lavagang.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/lavagang.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lavagang.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodbetween",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodbetween",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/woodbetween.json"
+        ]
+      }
+    },
+    {
+      "name": "Brokenworld",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenworld",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Butcherknife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butcherknife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ButcherknifeItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/butcherknife.json"
+        ]
+      }
+    },
+    {
+      "name": "Enity610loottabal",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enity_610loottabal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/enity_610.json"
+        ]
+      }
+    },
+    {
+      "name": "Betweenfleshbits",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenfleshbits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenfleshbitsItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenfleshbits.json"
+        ]
+      }
+    },
+    {
+      "name": "BetweenFlesh",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/between_flesh.json"
+        ]
+      }
+    },
+    {
+      "name": "Junkpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junkpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/JunkpickaxeItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/junkpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pickaxe609loot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_609loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/pickaxe_609.json"
+        ]
+      }
+    },
+    {
+      "name": "Junkpicrec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junkpicrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/junkpicrec.json"
+        ]
+      }
+    },
+    {
+      "name": "Junkoreloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junkoreloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/junkore.json"
+        ]
+      }
+    },
+    {
+      "name": "Scrapify",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenify",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/ScrapifyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scrapmaker",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_anvil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/gui/ScrapmakerScreen.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/network/ScrapmakerButtonMessage.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/ScrapmakerMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Scrapmakerv1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrapmakerv_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/block/scrapmakerv_1.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/scrapmakerv_1.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/scrapmakerv_1.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/Scrapmakerv1Block.java",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/scrapmakerv_1.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/entity/Scrapmakerv1BlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ScraptrapPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scraptrap_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/ScraptrapPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scraptrap",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scraptrap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/ScraptrapEntity.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/scraptrap_spawn_egg.json",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/scraptrap_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ScraptrapRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BetweenAnvil",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_anvil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/block/entity/BetweenAnvilBlockEntity.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/between_anvil.json",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/between_anvil.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/between_anvil.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenAnvilBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/between_anvil.json"
+        ]
+      }
+    },
+    {
+      "name": "Betweenanivil",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenanivil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/gui/BetweenanivilScreen.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/network/BetweenanivilButtonMessage.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/BetweenanivilMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Betweenify",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenify",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BetweenifyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BetweentrapPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweentrap_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BetweentrapPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Betweentrap",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweentrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/betweentrap_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/BetweentrapEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/BetweentrapRenderer.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweentrap_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "BetweenBearTrapSchematic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_bear_trap_schematic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenBearTrapSchematicItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/between_bear_trap_schematic.json"
+        ]
+      }
+    },
+    {
+      "name": "JunktrapSchematic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junktrap_schematic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/junktrap_schematic.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/JunktrapSchematicItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TurretBetween",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turret_between",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/turret_between_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/TurretBetweenRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TurretBetweenEntityProjectile.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TurretBetweenEntity.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/turret_between_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Turret",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turret",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/TurretItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/turret.json"
+        ]
+      }
+    },
+    {
+      "name": "TurretRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turret_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/TurretRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Betweenturretschematic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenturretschematic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenturretschematic.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenturretschematicItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Scrapmakerv1res",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrapmakerv_1res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/scrapmakerv_1res.json"
+        ]
+      }
+    },
+    {
+      "name": "Beetweenainvilres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetweenainvilres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/beetweenainvilres.json"
+        ]
+      }
+    },
+    {
+      "name": "Butcherkniferes",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butcherkniferes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/butcherkniferes.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ButcherkniferesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RusticCrosbow",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustic_crosbow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/RusticCrosbowRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/RusticCrosbowEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Crosbowrustic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crosbowrustic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/crosbowrustic.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/CrosbowrusticItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RusticCrosbowProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustic_crosbow_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/RusticCrosbowProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Schamaticknifes",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schamaticknifes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/schamaticknifes.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/SchamaticknifesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Butchersrage",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butchersrage",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Butchersrageres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butchersrageres",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/ButchersrageresBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "BleedingEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BleedingEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/potion/BleedingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Nailsinabottel",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailsinabottel",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Nailsinabottleres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailsinabottleres",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/NailsinabottleresBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Scrapbunch",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrapbunch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/scrapbunch.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ScrapbunchItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ElecRangedItemShootsProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elec_ranged_item_shoots_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/ElecRangedItemShootsProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bolt",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/BoltEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BoltProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolt_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BoltProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Electronbullet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electronbullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/electronbullet.json"
+        ]
+      }
+    },
+    {
+      "name": "Adminpc",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adminpc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/network/AdminpcButtonMessage.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/AdminpcMenu.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/gui/AdminpcScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Detonator",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detonator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/inventory/DetonatorInventoryCapability.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/DetonatorItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/detonator.json"
+        ]
+      }
+    },
+    {
+      "name": "Admineye",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admineye",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/AdmineyeEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/AdmineyeRenderer.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/admineye_spawn_egg.json",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/admineye_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Adminpcbutten",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adminpcbutten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/AdminpcbuttenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slice",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/SliceRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/SliceEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Areaeffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "areaeffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/AreaeffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Damage5x5Flopydisk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_5x_5_flopydisk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/Damage5x5FlopydiskItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/damage_5x_5_flopydisk.json"
+        ]
+      }
+    },
+    {
+      "name": "Summonminnon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summonminnon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/summonminnon.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/SummonminnonItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ETM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/ETMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CodestaffRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "codestaff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/CodestaffRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disk5x5",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disk_5x_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/disk_5x_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Summondisk",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summondisk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/summondisk.json"
+        ]
+      }
+    },
+    {
+      "name": "Code",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "code",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/code.json"
+        ]
+      }
+    },
+    {
+      "name": "ETMPCres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etmp_cres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/etmp_cres.json"
+        ]
+      }
+    },
+    {
+      "name": "DayDisk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_disk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/day_disk.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/DayDiskItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NightDisk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_disk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/night_disk.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/NightDiskItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Daydiskres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daydiskres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/daydiskres.json"
+        ]
+      }
+    },
+    {
+      "name": "Nightdiskres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightdiskres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/nightdiskres.json"
+        ]
+      }
+    },
+    {
+      "name": "Diskday",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diskday",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/DiskdayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nightdiskpro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightdiskpro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/NightdiskproProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CodestaffItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "codestaff_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/CodestaffItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdminStaffofTime",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_staffof_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/AdminStaffofTimeItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/admin_staffof_time_0.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/admin_staffof_time.json"
+        ]
+      }
+    },
+    {
+      "name": "Cooldown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/CooldownProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "StaffofTime",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staffof_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/network/StaffofTimeMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "BetweencutlessRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweencutless_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BetweencutlessRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Betweenthrowingknife",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenthrowingknife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenthrowingknifeItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenthrowingknife.json"
+        ]
+      }
+    },
+    {
+      "name": "KnifeProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/KnifeProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/KnifeEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/KnifeRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Bleedingiscool",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleedingiscool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/damage_type/bleedingiscool.json"
+        ]
+      }
+    },
+    {
+      "name": "Betweenthrowing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenthrowing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenthrowing.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenthrowingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bandage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/bandage.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BandageItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BandageRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BandageRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HerbCrusher",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herb_crusher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/herb_crusher.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/HerbCrusherItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EyeCoreherbs",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_coreherbs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/eye_coreherbs.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/EyeCoreherbsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Eyecorebandage",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyecorebandage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/eyecorebandage.json"
+        ]
+      }
+    },
+    {
+      "name": "Herb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/herb.json"
+        ]
+      }
+    },
+    {
+      "name": "Herbcrusherres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbcrusherres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/herbcrusherres.json"
+        ]
+      }
+    },
+    {
+      "name": "Eyecore",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyecore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/eyecore.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/EyecoreBlock.java",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/configured_feature/eyecore.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/placed_feature/eyecore.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/eyecore.json",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/eyecore.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/eyecore.json",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/eyecore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Throwingknife",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwingknife",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/throwingknife.json"
+        ]
+      }
+    },
+    {
+      "name": "GrappelRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappel_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/GrappelRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grappal",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/GrappalEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Grappel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/grappel.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/GrappelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/HookItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/hook.json"
+        ]
+      }
+    },
+    {
+      "name": "Resgrappal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resgrappal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/resgrappal.json"
+        ]
+      }
+    },
+    {
+      "name": "Grappelhand",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappelhand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/grappelhand.json"
+        ]
+      }
+    },
+    {
+      "name": "Coins",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coins",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/CoinsItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/coins.json"
+        ]
+      }
+    },
+    {
+      "name": "Coinsres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinsres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/coinsres.json"
+        ]
+      }
+    },
+    {
+      "name": "Betweencaves",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweencaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/biome/betweencaves.json"
+        ]
+      }
+    },
+    {
+      "name": "Crowbar",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/crowbar.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/CrowbarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Crow",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/crow.json"
+        ]
+      }
+    },
+    {
+      "name": "Grassbetween",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassbetween",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/block/grassbetween.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/GrassbetweenBlock.java",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/grassbetween.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/grassbetween.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/grassbetween.json"
+        ]
+      }
+    },
+    {
+      "name": "Zombietraveleranimated",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombietraveleranimated",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/zombietraveleranimated_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/ZombietraveleranimatedEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ZombietraveleranimatedModel.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ZombietraveleranimatedRenderer.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/zombietraveleranimated_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Butcher",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butcher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/ButcherEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ButcherRenderer.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/butcher_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ButcherModel.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/butcher_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Butcherloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butcherloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/butcher.json"
+        ]
+      }
+    },
+    {
+      "name": "Enity609animated",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enity_609animated",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/enity_609animated_spawn_egg.json",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/enity_609animated_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/Enity609animatedEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedModel.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BetweenwaterMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenwater_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BetweenwaterMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enity609animatedloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enity_609animatedloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/enity_609animated.json"
+        ]
+      }
+    },
+    {
+      "name": "CrowbarRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/CrowbarRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enity609animatedpic",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enity_609animatedpic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/Enity609animatedpicEntity.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/enity_609animatedpic_biome_modifier.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/enity_609animatedpic_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedpicRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedpicModel.java"
+        ]
+      }
+    },
+    {
+      "name": "MimicanimatedEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mimicanimated_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/MimicanimatedEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mimicanimated",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mimicanimated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/MimicanimatedRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/MimicanimatedEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/MimicanimatedModel.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/mimicanimated_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/MimicanimatedEntityProjectile.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/mimicanimated_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "GuradBOT",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gurad_bot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/GuradBOTRenderer.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/gurad_bot_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/GuradBOTEntity.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/gurad_bot_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/GuradBOTModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Thebutcher",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thebutcher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/enchantment/ThebutcherEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "TheSpitter",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_spitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/TheSpitterRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntityProjectile.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/TheSpitterModel.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/the_spitter_biome_modifier.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/the_spitter_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/acid.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/AcidItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AcidLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/AcidLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BetweenVirusRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_virus_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BetweenVirusRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BetweenVirus",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_virus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenVirusItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/between_virus.json"
+        ]
+      }
+    },
+    {
+      "name": "Enity609pic",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enity_609pic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/enity_609pic.json"
+        ]
+      }
+    },
+    {
+      "name": "TheLivingBetweenForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_living_between_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/biome/the_living_between_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "BetweenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/between_block.json",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/between_block.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/between_block.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/between_block.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/between_block_top.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/between_block_full.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Enity609animatedThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enity_609animated_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/Enity609animatedThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BetweenBlockEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "between_block_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BetweenBlockEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "deathcooldown",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "randomex",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "randome_Y",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "randome_z",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "golmcooldown",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "timestaffcooldown",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "ogg8bit",
+      "files": [
+        "8bit_gg"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "og8bit",
+      "files": [
+        "8bitformine"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "basicreamote",
+      "files": [
+        "basic_remote_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "enity691",
+      "files": [
+        "slug"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "illager",
+      "files": [
+        "illager_sound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pill",
+      "files": [
+        "pill"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "iron",
+      "files": [
+        "iron"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "haz",
+      "files": [
+        "haz"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gas",
+      "files": [
+        "gas"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gasmask",
+      "files": [
+        "gas"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pic609",
+      "files": [
+        "pic609"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ouch",
+      "files": [
+        "ouch"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "huh",
+      "files": [
+        "huh"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "spitters",
+      "files": [
+        "the_spitter"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:TheINbetween"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_mountain": [
+      "~CUSTOM:TheINbetween"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Crowbar",
+      "~CUSTOM:Junkpickaxe"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Betweencaves"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Reamotebasic",
+      "~CUSTOM:Thebetween"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:TheLivingBetweenForest"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Junkore"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:TheLivingBetweenForest",
+      "~CUSTOM:Betweencaves"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:BetweenBlock"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:TheLivingBetweenForest",
+      "~CUSTOM:TheINbetween"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Crowbar"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_cold": [
+      "~CUSTOM:TheLivingBetweenForest"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Crowbar",
+      "~CUSTOM:Butcherknife"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.broken_smp_god_shards.admin_staffof_time": "Staff of Time",
+      "biome.broken_smp_god_shards.the_living_between_forest": "The dead Between Forest",
+      "item.broken_smp_god_shards.betweenturretschematic": "Between Turret Schematic",
+      "subtitles.spitters": "",
+      "block.broken_smp_god_shards.grassbetween": "Grassbetween",
+      "block.broken_smp_god_shards.scrapmakerv_1": "Scrapmaker V1",
+      "entity.broken_smp_god_shards.mimicanimated": "Mimic Animated",
+      "subtitles.gas": "",
+      "item.broken_smp_god_shards.butcher_spawn_egg": "Butcher Spawn Egg",
+      "item.broken_smp_god_shards.gurad_bot_spawn_egg": "Gurad BOT Spawn Egg",
+      "entity.broken_smp_god_shards.betweenfish": "In Between fish",
+      "key.broken_smp_god_shards.deathbetween": "Deathbetween",
+      "item.broken_smp_god_shards.acid": "Acid",
+      "entity.broken_smp_god_shards.butcher": "Butcher",
+      "block.broken_smp_god_shards.between_block": "Virus Corpse Block",
+      "item.broken_smp_god_shards.butcherknife": "Butcher knife",
+      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
+      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
+      "item.broken_smp_god_shards.bullet": "Electron Bullet",
+      "item.broken_smp_god_shards.reamotebasic": "Basic Remote tape",
+      "subtitles.huh": "",
+      "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
+      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
+      "entity.broken_smp_god_shards.entity_611": "Entity 6 1 1",
+      "gui.broken_smp_god_shards.adminpc.label_day": "day",
+      "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
+      "item.broken_smp_god_shards.coins": "Coins",
+      "item.broken_smp_god_shards.golemspawn_spawn_egg": " Golem Spawn Egg",
+      "item.broken_smp_god_shards.bandage": "Between Bandage",
+      "item.minecraft.splash_potion.effect.nailsinabottel": "Splash Potion of Nailsinabottel",
+      "item.broken_smp_god_shards.thebetween": "The Between",
+      "subtitles.haz": "",
+      "item.broken_smp_god_shards.basicreamote": "Basicremote",
+      "item.broken_smp_god_shards.betweenthrowingknife": "Between Throwing Knife",
+      "block.broken_smp_god_shards.betweenlog": "Betweenlog",
+      "item.broken_smp_god_shards.betweentrap_spawn_egg": "Between trap Spawn Egg",
+      "item.broken_smp_god_shards.betweenfish_spawn_egg": "In Between fish Spawn Egg",
+      "entity.broken_smp_god_shards.gurad_bot": "Gurad BOT",
+      "entity.broken_smp_god_shards.enity_609animatedpic": "Enity 6 0 9 pic",
+      "item.minecraft.tipped_arrow.effect.butchersrage": "Arrow of Butchersrage",
+      "item.broken_smp_god_shards.mimicanimated_spawn_egg": "Mimic Animated Spawn Egg",
+      "gui.broken_smp_god_shards.betweenanivil.label_betweenify": "Beetween Anvil",
+      "item.broken_smp_god_shards.night_disk": "Night Disk",
+      "item.broken_smp_god_shards.schamaticknifes": "Schamatic scrapball",
+      "gui.broken_smp_god_shards.adminpc.label_disk": "disk",
+      "subtitles.iron": "",
+      "item.broken_smp_god_shards.summonminnon": "Summon Minnon disk",
+      "subtitles.ouch": "",
+      "item.minecraft.lingering_potion.effect.butchersrage": "Lingering Potion of Butchersrage",
+      "gui.broken_smp_god_shards.adminpc.label_mimion": "mimion",
+      "item.broken_smp_god_shards.hummanhaz_spawn_egg": "Humman Hazmat Spawn Egg",
+      "entity.broken_smp_god_shards.turret_between": "Turret Between",
+      "entity.broken_smp_god_shards.betweentrap": "Between trap",
+      "item.broken_smp_god_shards.betweenfleshbits": "Between flesh bits",
+      "item.broken_smp_god_shards.the_spitter_spawn_egg": "The Spitter Spawn Egg",
+      "entity.broken_smp_god_shards.zombietraveleranimated": "Zombie_Traveler",
+      "item.broken_smp_god_shards.scrapbunch": "Scrapbunch",
+      "block.broken_smp_god_shards.between_anvil": "Between Anvil",
+      "block.broken_smp_god_shards.junkore": "Scrap Ore",
+      "biome.broken_smp_god_shards.the_i_nbetween": "The in between",
+      "block.broken_smp_god_shards.orebringer": "ore in between",
+      "item.broken_smp_god_shards.enity_609animated_spawn_egg": "Enity 6 0 9 Virus Spawn Egg",
+      "death.attack.bleedingiscool": "%1$s to bleeding",
+      "item.broken_smp_god_shards.hook": "Hook",
+      "enchantment.broken_smp_god_shards.thebutcher": "The Butcher",
+      "item.broken_smp_god_shards.eye_coreherbs": "Eye Core Herbs",
+      "subtitles.basicreamote": "",
+      "death.attack.bleedingiscool.item": "%1$s was killed by %2$s using %3$s",
+      "item.broken_smp_god_shards.golemhelpertablet": "Golem helper tablet",
+      "item.broken_smp_god_shards.betweenthrowing": "Betweenthrowing",
+      "item.broken_smp_god_shards.butcherkniferes": "Rustic_crosbow_schamatic ",
+      "item.broken_smp_god_shards.zombietraveleranimated_spawn_egg": "Zombie_Traveler Spawn Egg",
+      "item.broken_smp_god_shards.entity_611_spawn_egg": "Entity 6 1 1 Spawn Egg",
+      "item.broken_smp_god_shards.between_bear_trap_schematic": "Between Bear Trap Schematic",
+      "key.broken_smp_god_shards.staffof_time": "Staff of Time",
+      "item.broken_smp_god_shards.between_virus": "Between Virus",
+      "item.broken_smp_god_shards.herb_crusher": "Mortar\u0026Pestle",
+      "item.broken_smp_god_shards.tools": "Tools",
+      "item.broken_smp_god_shards.junk": "scrap",
+      "item.broken_smp_god_shards.detonator": "ESM PC",
+      "item.broken_smp_god_shards.fish": "Between Flesh",
+      "item.broken_smp_god_shards.junkpickaxe": "Junk Pickaxe",
+      "item.broken_smp_god_shards.crowbar": "Crowbar",
+      "item.broken_smp_god_shards.between_ingot": "Between Ingot",
+      "entity.broken_smp_god_shards.enity_609animated": "Enity 6 0 9 Virus",
+      "subtitles.enity691": "",
+      "subtitles.gasmask": "",
+      "entity.broken_smp_god_shards.scraptrap": "Junk Trap",
+      "item.broken_smp_god_shards.damage_5x_5_flopydisk": "Damage 5x 5 Disk",
+      "item.broken_smp_god_shards.admineye_spawn_egg": "ESM BOT Spawn Egg",
+      "entity.broken_smp_god_shards.the_spitter": "The Spitter",
+      "item.broken_smp_god_shards.rarereamote": "Rare Remote",
+      "gui.broken_smp_god_shards.between_anvil.button_scrapify": "scrapify",
+      "item.broken_smp_god_shards.turret": "Turret Reamote",
+      "item.broken_smp_god_shards.scraptrap_spawn_egg": "Junk Trap Spawn Egg",
+      "item.broken_smp_god_shards.grappel": "Grappling Hook Glove",
+      "item_group.broken_smp_god_shards.brokenworld": "Broken World",
+      "subtitles.pic609": "",
+      "item.broken_smp_god_shards.thebetween.desc": "1 out of 13",
+      "gui.broken_smp_god_shards.betweenanivil.button_betweenify": "betweenify",
+      "item.broken_smp_god_shards.junktrap_schematic": "Junktrap rotton Schematic",
+      "item.broken_smp_god_shards.crosbowrustic": "Scrap Crosbow",
+      "item.minecraft.potion.effect.nailsinabottel": "Potion of Nails in a bottle",
+      "item.minecraft.tipped_arrow.effect.nailsinabottel": "Arrow of Nailsinabottel",
+      "biome.broken_smp_god_shards.betweencaves": "Betweencaves",
+      "item.broken_smp_god_shards.day_disk": "Day Disk",
+      "block.broken_smp_god_shards.betweenstone": "Between stone",
+      "item.minecraft.splash_potion.effect.butchersrage": "Splash Potion of Butchersrage",
+      "gui.broken_smp_god_shards.adminpc.label_the_admins_eye": "The Admin\u0027s ETS",
+      "entity.broken_smp_god_shards.admineye": "ESM BOT",
+      "subtitles.illager": "",
+      "subtitles.og8bit": "",
+      "item.minecraft.lingering_potion.effect.nailsinabottel": "Lingering Potion of Nailsinabottel",
+      "item.broken_smp_god_shards.enity_609animatedpic_spawn_egg": "Enity 6 0 9 pic Spawn Egg",
+      "subtitles.ogg8bit": "",
+      "effect.broken_smp_god_shards.bleeding": "Bleeding",
+      "gui.broken_smp_god_shards.scrapmaker.bear_trap": "scrap trap",
+      "gui.broken_smp_god_shards.between_anvil.label_scrap_maker": "Scrap Maker ",
+      "item.minecraft.potion.effect.butchersrage": "Potion of Butchers Rage",
+      "gui.broken_smp_god_shards.adminpc.label_night": "night",
+      "block.broken_smp_god_shards.eyecore": "Eyecore",
+      "entity.broken_smp_god_shards.golemspawn": " Golem",
+      "subtitles.pill": "",
+      "item.broken_smp_god_shards.turret_between_spawn_egg": "Turret Between Spawn Egg",
+      "key.broken_smp_god_shards.golem": "Golem"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "broken_smp_god_shards",
+    "modName": "broken_smp_god_shards",
+    "version": "1.0.0",
+    "author": "jackh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.brokensmpgodshards"
+  },
+  "mcreatorVersion": 202400342716
+}

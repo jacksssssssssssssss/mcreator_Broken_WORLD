@@ -1,0 +1,7 @@
+{
+  "parent": "broken_smp_god_shards:custom/pcbag",
+  "textures": {
+    "0": "broken_smp_god_shards:block/greenpc",
+    "particle": "broken_smp_god_shards:item/junk"
+  }
+}

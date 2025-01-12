@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "broken_smp_god_shards:the_i_nbetween",
+  "features": "broken_smp_god_shards:eyecore",
+  "step": "vegetal_decoration"
+}

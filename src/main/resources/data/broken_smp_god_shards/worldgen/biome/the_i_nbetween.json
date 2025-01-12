@@ -1,0 +1,103 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "broken_smp_god_shards:og8bit",
+    "particle": {
+      "options": {
+        "type": "electric_spark"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": -65536,
+    "grass_color": -6736897,
+    "sky_color": -6750055,
+    "fog_color": -6750055,
+    "water_color": -10066432,
+    "water_fog_color": -6711040
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "broken_smp_god_shards:butcher",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "broken_smp_god_shards:hummanhaz",
+        "weight": 40,
+        "minCount": 5,
+        "maxCount": 13
+      },
+      {
+        "type": "broken_smp_god_shards:betweenfish",
+        "weight": 40,
+        "minCount": 4,
+        "maxCount": 7
+      },
+      {
+        "type": "broken_smp_god_shards:mimicanimated",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "broken_smp_god_shards:enity_609animatedpic",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "broken_smp_god_shards:betweentrap",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "broken_smp_god_shards:enity_609animated",
+        "weight": 60,
+        "minCount": 5,
+        "maxCount": 10
+      },
+      {
+        "type": "broken_smp_god_shards:gurad_bot",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "broken_smp_god_shards:the_i_nbetween_tree",
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",
+      "minecraft:lush_caves_clay",
+      "minecraft:lush_caves_vegetation",
+      "minecraft:rooted_azalea_tree",
+      "minecraft:spore_blossom",
+      "minecraft:classic_vines_cave_feature"
+    ],
+    []
+  ]
+}

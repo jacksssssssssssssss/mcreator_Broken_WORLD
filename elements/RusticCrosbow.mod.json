@@ -1,0 +1,24 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Scrapbunch"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.lantern.break"
+    },
+    "igniteFire": false,
+    "power": 1.2,
+    "damage": 2.5,
+    "knockback": 4,
+    "entityModel": "Modelscapball",
+    "customModelTexture": "scraaaa.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsEntity": {
+      "name": "RusticCrosbowProjectileHitsLivingEntity"
+    }
+  }
+}

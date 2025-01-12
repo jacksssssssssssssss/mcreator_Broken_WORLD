@@ -1,0 +1,21 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Butcherknife"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.ancient_debris.break"
+    },
+    "igniteFire": false,
+    "power": 4.5,
+    "damage": 5.1,
+    "knockback": 7,
+    "entityModel": "Modelslash",
+    "customModelTexture": "slashss.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "sprite-0004"
+      },
+      "name": "default"
+    }
+  }
+}

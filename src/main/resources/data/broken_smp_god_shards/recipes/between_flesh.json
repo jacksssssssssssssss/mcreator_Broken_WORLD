@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "broken_smp_god_shards:fish"
+    },
+    {
+      "item": "broken_smp_god_shards:butcherknife"
+    }
+  ],
+  "result": {
+    "item": "broken_smp_god_shards:betweenfleshbits",
+    "count": 4
+  }
+}

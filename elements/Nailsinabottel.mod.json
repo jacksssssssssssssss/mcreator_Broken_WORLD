@@ -1,0 +1,39 @@
+{
+  "_fv": 69,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Nails in a bottle",
+    "splashName": "Splash Potion of Nailsinabottel",
+    "lingeringName": "Lingering Potion of Nailsinabottel",
+    "arrowName": "Arrow of Nailsinabottel",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Bleeding"
+        },
+        "duration": 320,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 320,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 320,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

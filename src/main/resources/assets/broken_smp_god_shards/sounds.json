@@ -1,0 +1,114 @@
+{
+  "ogg8bit": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:8bit_gg",
+        "stream": false
+      }
+    ]
+  },
+  "og8bit": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:8bitformine",
+        "stream": false
+      }
+    ]
+  },
+  "basicreamote": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:basic_remote_",
+        "stream": false
+      }
+    ]
+  },
+  "enity691": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:slug",
+        "stream": true
+      }
+    ]
+  },
+  "illager": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:illager_sound",
+        "stream": false
+      }
+    ]
+  },
+  "pill": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:pill",
+        "stream": false
+      }
+    ]
+  },
+  "iron": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:iron",
+        "stream": false
+      }
+    ]
+  },
+  "haz": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:haz",
+        "stream": false
+      }
+    ]
+  },
+  "gas": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:gas",
+        "stream": false
+      }
+    ]
+  },
+  "gasmask": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:gas",
+        "stream": false
+      }
+    ]
+  },
+  "pic609": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:pic609",
+        "stream": false
+      }
+    ]
+  },
+  "ouch": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:ouch",
+        "stream": false
+      }
+    ]
+  },
+  "huh": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:huh",
+        "stream": false
+      }
+    ]
+  },
+  "spitters": {
+    "sounds": [
+      {
+        "name": "broken_smp_god_shards:the_spitter",
+        "stream": false
+      }
+    ]
+  }
+}

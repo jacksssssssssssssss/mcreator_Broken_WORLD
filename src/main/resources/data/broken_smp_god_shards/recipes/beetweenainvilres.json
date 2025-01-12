@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "c": {
+      "item": "broken_smp_god_shards:betweenstone"
+    }
+  },
+  "result": {
+    "item": "broken_smp_god_shards:between_anvil",
+    "count": 1
+  }
+}

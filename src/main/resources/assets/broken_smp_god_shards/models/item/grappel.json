@@ -1,0 +1,7 @@
+{
+  "parent": "broken_smp_god_shards:custom/grapal",
+  "textures": {
+    "0": "broken_smp_god_shards:block/grapal",
+    "particle": "minecraft:item/arrow"
+  }
+}

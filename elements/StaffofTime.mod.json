@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "4",
+    "keyBindingName": "Staff of Time",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "CodestaffRightclicked"
+    }
+  }
+}

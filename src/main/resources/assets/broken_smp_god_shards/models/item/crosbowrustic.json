@@ -1,0 +1,7 @@
+{
+  "parent": "broken_smp_god_shards:custom/cros",
+  "textures": {
+    "0": "broken_smp_god_shards:block/cross",
+    "particle": "minecraft:item/bow_pulling_2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "broken_smp_god_shards:custom/kinfe",
+  "textures": {
+    "0": "broken_smp_god_shards:block/knifes",
+    "particle": "broken_smp_god_shards:item/knifeitem"
+  }
+}

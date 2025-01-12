@@ -1,0 +1,9 @@
+{
+  "parent": "broken_smp_god_shards:custom/between_anvilal",
+  "textures": {
+    "all": "broken_smp_god_shards:block/between_log",
+    "particle": "broken_smp_god_shards:block/between_log",
+    "0": "broken_smp_god_shards:block/between_anvil"
+  },
+  "render_type": "cutout_mipped"
+}

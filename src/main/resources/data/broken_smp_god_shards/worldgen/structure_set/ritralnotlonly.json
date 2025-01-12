@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "broken_smp_god_shards:ritralnotlonly",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 20,
+    "salt": 1267224
+  }
+}

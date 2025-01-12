@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "abd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:yellow_wool"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:clock"
+    },
+    "d": {
+      "item": "minecraft:yellow_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "broken_smp_god_shards:day_disk",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "broken_smp_god_shards:junkpickaxe"
+  },
+  "result": "broken_smp_god_shards:junkore"
+}

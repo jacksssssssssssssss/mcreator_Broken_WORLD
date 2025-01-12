@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "broken_smp_god_shards:lavagang",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 20,
+    "salt": 1415945557
+  }
+}

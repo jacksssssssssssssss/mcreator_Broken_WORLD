@@ -1,0 +1,33 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "lab1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 100,
+    "separation": 40,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TheINbetween"
+      },
+      {
+        "value": "CUSTOM:Betweencaves"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": -32,
+    "startHeightMax": -20,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

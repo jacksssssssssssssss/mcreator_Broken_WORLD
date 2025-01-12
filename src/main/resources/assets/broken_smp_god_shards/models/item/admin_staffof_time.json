@@ -1,0 +1,15 @@
+{
+  "parent": "broken_smp_god_shards:custom/time_staff",
+  "textures": {
+    "1": "broken_smp_god_shards:block/time_staff_texture",
+    "particle": "minecraft:item/blaze_rod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "broken_smp_god_shards:item/admin_staffof_time_0"
+    }
+  ]
+}

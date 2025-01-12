@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "b": {
+      "item": "minecraft:moss_block"
+    },
+    "c": {
+      "item": "broken_smp_god_shards:junkore"
+    },
+    "d": {
+      "item": "minecraft:mossy_cobblestone_slab"
+    }
+  },
+  "result": {
+    "item": "broken_smp_god_shards:scrapmakerv_1",
+    "count": 1
+  }
+}

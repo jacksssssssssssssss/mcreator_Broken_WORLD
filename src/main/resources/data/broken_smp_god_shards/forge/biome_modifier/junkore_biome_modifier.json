@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "broken_smp_god_shards:the_i_nbetween",
+    "broken_smp_god_shards:betweencaves"
+  ],
+  "features": "broken_smp_god_shards:junkore",
+  "step": "underground_ores"
+}

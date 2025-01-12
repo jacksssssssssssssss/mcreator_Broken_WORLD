@@ -1,0 +1,105 @@
+{
+  "has_precipitation": false,
+  "temperature": 0,
+  "downfall": 0,
+  "effects": {
+    "foliage_color": -3381760,
+    "grass_color": -6750055,
+    "sky_color": -6750055,
+    "fog_color": -6750055,
+    "water_color": -10066432,
+    "water_fog_color": -10066432
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "broken_smp_god_shards:enity_609animatedpic",
+        "weight": 13,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "broken_smp_god_shards:butcher",
+        "weight": 28,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "broken_smp_god_shards:enity_609animated",
+        "weight": 41,
+        "minCount": 6,
+        "maxCount": 9
+      },
+      {
+        "type": "broken_smp_god_shards:the_spitter",
+        "weight": 11,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "broken_smp_god_shards:zombietraveleranimated",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "broken_smp_god_shards:betweentrap",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:ore_gold_extra",
+      "minecraft:ore_emerald"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}

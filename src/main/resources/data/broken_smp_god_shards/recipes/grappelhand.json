@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:stone_button"
+    },
+    "c": {
+      "item": "minecraft:chain"
+    },
+    "d": {
+      "item": "broken_smp_god_shards:hook"
+    }
+  },
+  "result": {
+    "item": "broken_smp_god_shards:grappel",
+    "count": 1
+  }
+}

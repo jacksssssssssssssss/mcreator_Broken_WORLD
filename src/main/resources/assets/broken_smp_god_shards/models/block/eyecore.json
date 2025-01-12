@@ -1,0 +1,9 @@
+{
+  "parent": "broken_smp_god_shards:custom/eye",
+  "textures": {
+    "all": "broken_smp_god_shards:block/plantofye",
+    "particle": "broken_smp_god_shards:block/plantofye",
+    "0": "broken_smp_god_shards:block/plantofye"
+  },
+  "render_type": "cutout"
+}

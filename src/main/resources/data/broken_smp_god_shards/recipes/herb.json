@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "broken_smp_god_shards:eyecore"
+    },
+    {
+      "item": "broken_smp_god_shards:herb_crusher"
+    }
+  ],
+  "result": {
+    "item": "broken_smp_god_shards:eye_coreherbs",
+    "count": 2
+  }
+}

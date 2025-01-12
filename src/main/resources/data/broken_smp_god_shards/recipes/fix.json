@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:redstone_torch"
+    },
+    "d": {
+      "item": "broken_smp_god_shards:reamotebasic"
+    }
+  },
+  "result": {
+    "item": "broken_smp_god_shards:rarereamote",
+    "count": 1
+  }
+}

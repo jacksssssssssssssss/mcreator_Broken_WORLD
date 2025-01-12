@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "broken_smp_god_shards:betweenlog"
+    }
+  ],
+  "result": {
+    "item": "minecraft:warped_planks",
+    "count": 4
+  }
+}

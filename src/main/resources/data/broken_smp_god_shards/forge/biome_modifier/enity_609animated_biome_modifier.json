@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "broken_smp_god_shards:betweencaves",
+    "broken_smp_god_shards:the_i_nbetween",
+    "broken_smp_god_shards:the_living_between_forest"
+  ],
+  "spawners": {
+    "type": "broken_smp_god_shards:enity_609animated",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

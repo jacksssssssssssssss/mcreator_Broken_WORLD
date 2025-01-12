@@ -1,0 +1,9 @@
+{
+  "parent": "broken_smp_god_shards:custom/scrap_anvilal",
+  "textures": {
+    "all": "minecraft:block/ancient_debris_top",
+    "particle": "minecraft:block/ancient_debris_top",
+    "0": "broken_smp_god_shards:block/scrap_anvil"
+  },
+  "render_type": "solid"
+}

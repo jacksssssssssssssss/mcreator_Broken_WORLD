@@ -1,0 +1,39 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "minecraft:golden_pickaxe",
+    "customModelName": "junk_pic:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Junk Pickaxe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Brokenworld"
+      }
+    ],
+    "efficiency": 2.5,
+    "attackSpeed": 1.0,
+    "enchantability": 5,
+    "damageVsEntity": 5.699999999999999,
+    "usageCount": 20,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Tools"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

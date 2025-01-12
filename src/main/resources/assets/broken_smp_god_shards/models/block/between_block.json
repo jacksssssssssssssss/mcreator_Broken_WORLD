@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "broken_smp_god_shards:block/flesh_block",
+    "bottom": "broken_smp_god_shards:block/flesh_block",
+    "top": "broken_smp_god_shards:block/flesh_block",
+    "side": "broken_smp_god_shards:block/flesh_block"
+  },
+  "render_type": "solid"
+}

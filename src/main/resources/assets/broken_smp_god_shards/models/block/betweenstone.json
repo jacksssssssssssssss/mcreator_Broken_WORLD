@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "broken_smp_god_shards:block/betweenstone",
+    "up": "broken_smp_god_shards:block/betweenstone",
+    "north": "broken_smp_god_shards:block/betweenstone",
+    "east": "broken_smp_god_shards:block/betweenstone",
+    "south": "broken_smp_god_shards:block/betweenstone",
+    "west": "broken_smp_god_shards:block/betweenstone",
+    "particle": "broken_smp_god_shards:block/betweenstone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "dark_forest",
+  "spawners": {
+    "type": "broken_smp_god_shards:golemspawn",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

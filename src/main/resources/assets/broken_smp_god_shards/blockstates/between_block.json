@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "broken_smp_god_shards:block/between_block"
+    },
+    "type=top": {
+      "model": "broken_smp_god_shards:block/between_block_top"
+    },
+    "type=double": {
+      "model": "broken_smp_god_shards:block/between_block_full"
+    }
+  }
+}

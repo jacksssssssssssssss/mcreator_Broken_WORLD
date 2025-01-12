@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "broken_smp_god_shards:eye_coreherbs"
+    }
+  },
+  "result": {
+    "item": "broken_smp_god_shards:bandage",
+    "count": 4
+  }
+}
