@@ -148,7 +148,7 @@
     },
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
-    "rangedAttackRadius": 10.0,
+    "rangedAttackRadius": 8.0,
     "height": 1.0,
     "attackRate": 7,
     "raidSpawnsCount": [

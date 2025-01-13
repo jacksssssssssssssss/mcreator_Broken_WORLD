@@ -116,7 +116,7 @@ public class TheSpitterEntity extends Monster implements RangedAttackMob, GeoEnt
 		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, GuradBOTEntity.class, true, false));
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, HummanhazEntity.class, true, false));
 		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, ButcherEntity.class, true, false));
-		this.goalSelector.addGoal(1, new TheSpitterEntity.RangedAttackGoal(this, 1.25, 20, 10f) {
+		this.goalSelector.addGoal(1, new TheSpitterEntity.RangedAttackGoal(this, 1.25, 20, 8f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();
