@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.brokensmpgodshards.block.SpeedFlowerBlock;
 import net.mcreator.brokensmpgodshards.block.Scrapmakerv1Block;
 import net.mcreator.brokensmpgodshards.block.OrebringerBlock;
+import net.mcreator.brokensmpgodshards.block.LabDoorBlock;
 import net.mcreator.brokensmpgodshards.block.JunkoreBlock;
 import net.mcreator.brokensmpgodshards.block.GrassbetweenBlock;
 import net.mcreator.brokensmpgodshards.block.EyecoreBlock;
@@ -38,6 +39,7 @@ public class BrokenSmpGodShardsModBlocks {
 	public static final RegistryObject<Block> GRASSBETWEEN = REGISTRY.register("grassbetween", () -> new GrassbetweenBlock());
 	public static final RegistryObject<Block> BETWEEN_BLOCK = REGISTRY.register("between_block", () -> new BetweenBlockBlock());
 	public static final RegistryObject<Block> SPEED_FLOWER = REGISTRY.register("speed_flower", () -> new SpeedFlowerBlock());
+	public static final RegistryObject<Block> LAB_DOOR = REGISTRY.register("lab_door", () -> new LabDoorBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

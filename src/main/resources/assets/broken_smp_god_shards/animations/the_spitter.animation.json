@@ -31,17 +31,17 @@
 			}
 		},
 		"idle": {
-			"animation_length": 0.5417,
+			"animation_length": 2,
 			"bones": {
 				"head": {
 					"rotation": {
 						"0.0": {
 							"vector": [7.5, 0, 0]
 						},
-						"0.25": {
+						"1.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.5": {
+						"2.0": {
 							"vector": [5, 0, 0]
 						}
 					}

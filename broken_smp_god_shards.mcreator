@@ -742,8 +742,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/lab_1.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/lab_1.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lab_1.json"
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lab_1.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/lab_1.json"
         ]
       }
     },
@@ -2319,11 +2319,11 @@
       "registry_name": "enity_609animated",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedModel.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedRenderer.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/enity_609animated_spawn_egg.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/enity_609animated_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/Enity609animatedEntity.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/Enity609animatedEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedModel.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedRenderer.java"
         ]
       }
     },
@@ -2667,10 +2667,10 @@
       "registry_name": "speed_flower",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/block/speed_flower.json",
           "src/main/resources/assets/broken_smp_god_shards/blockstates/speed_flower.json",
-          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/speed_flower.json",
           "src/main/java/net/mcreator/brokensmpgodshards/block/SpeedFlowerBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/speed_flower.json",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/speed_flower.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/speed_flower.json"
         ]
       }
@@ -2777,6 +2777,137 @@
       "metadata": {
         "files": [
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/virus_butcher.json"
+        ]
+      }
+    },
+    {
+      "name": "LabDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/block/lab_door_top_left_open.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/lab_door.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/LabDoorBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/lab_door.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/lab_door_bottom_left_open.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/lab_door_bottom_right.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/lab_door_bottom_left.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/lab_door_top_left.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/lab_door_top_right_open.json",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/lab_door.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/lab_door_bottom_right_open.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/lab_door_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "BetweenifyEffectEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenify_effect_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BetweenifyEffectEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BetweenifyEffectEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenify_effect_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/BetweenifyEffectEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BetweenifyEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweenify_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/potion/BetweenifyEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Lab2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/lab_2.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lab_2.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/lab_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Death_609",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_609",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/Death_609Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -2983,6 +3114,7 @@
   "language_map": {
     "en_us": {
       "item.broken_smp_god_shards.admin_staffof_time": "Staff of Time",
+      "block.broken_smp_god_shards.lab_door": "Lab Door",
       "biome.broken_smp_god_shards.the_living_between_forest": "The dead Between Forest",
       "item.broken_smp_god_shards.betweenturretschematic": "Between Turret Schematic",
       "subtitles.spitters": "",
@@ -3011,6 +3143,7 @@
       "gui.broken_smp_god_shards.adminpc.label_day": "day",
       "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
       "item.broken_smp_god_shards.coins": "Coins",
+      "effect.broken_smp_god_shards.betweenify_effect": "Betweenify",
       "item.broken_smp_god_shards.golemspawn_spawn_egg": " Golem Spawn Egg",
       "item.broken_smp_god_shards.bandage": "Between Bandage",
       "item.minecraft.splash_potion.effect.nailsinabottel": "Splash Potion of Nailsinabottel",

@@ -84,7 +84,11 @@
     "isBonemealable": false,
     "frequencyOnChunks": 5,
     "generateFeature": false,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TheINbetween"
+      }
+    ],
     "generationType": "Flower",
     "patchSize": 64,
     "generateAtAnyHeight": false

@@ -11,7 +11,7 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "brewingInputStack": {
-      "value": "POTION:AWKWARD"
+      "value": "POTION:WATER"
     },
     "brewingIngredientStack": {
       "value": "CUSTOM:Speedbubblemush"

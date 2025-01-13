@@ -1,5 +1,6 @@
 {
   "item.broken_smp_god_shards.admin_staffof_time": "Staff of Time",
+  "block.broken_smp_god_shards.lab_door": "Lab Door",
   "biome.broken_smp_god_shards.the_living_between_forest": "The dead Between Forest",
   "item.broken_smp_god_shards.betweenturretschematic": "Between Turret Schematic",
   "subtitles.spitters": "",
@@ -28,6 +29,7 @@
   "gui.broken_smp_god_shards.adminpc.label_day": "day",
   "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
   "item.broken_smp_god_shards.coins": "Coins",
+  "effect.broken_smp_god_shards.betweenify_effect": "Betweenify",
   "item.broken_smp_god_shards.golemspawn_spawn_egg": " Golem Spawn Egg",
   "item.broken_smp_god_shards.bandage": "Between Bandage",
   "item.minecraft.splash_potion.effect.nailsinabottel": "Splash Potion of Nailsinabottel",

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "broken_smp_god_shards:lab_1",
+  "start_pool": "broken_smp_god_shards:lab_2",
   "size": 1,
   "max_distance_from_center": 64,
   "spawn_overrides": {},
@@ -12,7 +12,7 @@
       "absolute": -32
     },
     "max_inclusive": {
-      "absolute": -20
+      "absolute": -22
     }
   },
   "biomes": "broken_smp_god_shards:the_living_between_forest",
