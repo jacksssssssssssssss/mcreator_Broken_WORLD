@@ -119,6 +119,7 @@ public class BrokenSmpGodShardsModTabs {
 
 			tabData.accept(BrokenSmpGodShardsModBlocks.OREBRINGER.get().asItem());
 			tabData.accept(BrokenSmpGodShardsModBlocks.BETWEENLOG.get().asItem());
+			tabData.accept(BrokenSmpGodShardsModBlocks.SPEED_FLOWER.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 
