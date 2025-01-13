@@ -24,6 +24,7 @@ import net.mcreator.brokensmpgodshards.item.TurretItem;
 import net.mcreator.brokensmpgodshards.item.ToolsItem;
 import net.mcreator.brokensmpgodshards.item.ThebetweenItem;
 import net.mcreator.brokensmpgodshards.item.SummonminnonItem;
+import net.mcreator.brokensmpgodshards.item.SpeedbubblemushItem;
 import net.mcreator.brokensmpgodshards.item.ScrapbunchItem;
 import net.mcreator.brokensmpgodshards.item.SchamaticknifesItem;
 import net.mcreator.brokensmpgodshards.item.ReamotebasicItem;
@@ -131,6 +132,8 @@ public class BrokenSmpGodShardsModItems {
 	public static final RegistryObject<Item> ACID = REGISTRY.register("acid", () -> new AcidItem());
 	public static final RegistryObject<Item> BETWEEN_VIRUS = REGISTRY.register("between_virus", () -> new BetweenVirusItem());
 	public static final RegistryObject<Item> BETWEEN_BLOCK = block(BrokenSmpGodShardsModBlocks.BETWEEN_BLOCK);
+	public static final RegistryObject<Item> SPEED_FLOWER = block(BrokenSmpGodShardsModBlocks.SPEED_FLOWER);
+	public static final RegistryObject<Item> SPEEDBUBBLEMUSH = REGISTRY.register("speedbubblemush", () -> new SpeedbubblemushItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
