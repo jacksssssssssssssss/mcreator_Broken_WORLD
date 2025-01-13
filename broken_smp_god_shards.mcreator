@@ -2293,9 +2293,9 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ButcherRenderer.java",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/butcher_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ButcherModel.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/ButcherEntity.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/butcher_spawn_egg.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/ButcherEntity.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ButcherModel.java"
         ]
       }
     },
@@ -2494,12 +2494,12 @@
       "registry_name": "the_spitter",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/TheSpitterRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntityProjectile.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/TheSpitterModel.java",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/the_spitter_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntityProjectile.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/the_spitter_spawn_egg.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/TheSpitterRenderer.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntity.java"
         ]
       }
     },
@@ -2721,6 +2721,64 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "VirusButcher",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "virus_butcher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/VirusButcherEntity.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/virus_butcher_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/VirusButcherModel.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/virus_butcher_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/VirusButcherRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TheSpitterThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_spitter_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/TheSpitterThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VirusButcherLoottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "virus_butcher_loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/virus_butcher.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2929,6 +2987,7 @@
       "item.broken_smp_god_shards.betweenturretschematic": "Between Turret Schematic",
       "subtitles.spitters": "",
       "block.broken_smp_god_shards.grassbetween": "Grassbetween",
+      "item.broken_smp_god_shards.virus_butcher_spawn_egg": "Virus Butcher Spawn Egg",
       "block.broken_smp_god_shards.scrapmakerv_1": "Scrapmaker V1",
       "entity.broken_smp_god_shards.mimicanimated": "Mimic Animated",
       "subtitles.gas": "",
@@ -2940,14 +2999,14 @@
       "entity.broken_smp_god_shards.butcher": "Butcher",
       "painting.broken_smp_god_shards.speedmush_painting.title": "Speed mush",
       "block.broken_smp_god_shards.between_block": "Virus Corpse Block",
-      "item.broken_smp_god_shards.butcherknife": "Butcher knife",
-      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
       "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
+      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
+      "item.broken_smp_god_shards.butcherknife": "Butcher knife",
       "item.broken_smp_god_shards.bullet": "Electron Bullet",
       "item.broken_smp_god_shards.reamotebasic": "Basic Remote tape",
       "subtitles.huh": "",
-      "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
       "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
+      "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
       "entity.broken_smp_god_shards.entity_611": "Entity 6 1 1",
       "gui.broken_smp_god_shards.adminpc.label_day": "day",
       "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
@@ -2977,6 +3036,7 @@
       "gui.broken_smp_god_shards.adminpc.label_mimion": "mimion",
       "item.broken_smp_god_shards.hummanhaz_spawn_egg": "Humman Hazmat Spawn Egg",
       "entity.broken_smp_god_shards.turret_between": "Turret Between",
+      "entity.broken_smp_god_shards.virus_butcher": "Virus Butcher",
       "entity.broken_smp_god_shards.betweentrap": "Between trap",
       "item.broken_smp_god_shards.betweenfleshbits": "Between flesh bits",
       "item.broken_smp_god_shards.the_spitter_spawn_egg": "The Spitter Spawn Egg",

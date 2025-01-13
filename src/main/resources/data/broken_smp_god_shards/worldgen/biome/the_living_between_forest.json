@@ -47,6 +47,12 @@
         "weight": 30,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "broken_smp_god_shards:virus_butcher",
+        "weight": 29,
+        "minCount": 3,
+        "maxCount": 4
       }
     ],
     "creature": [],

@@ -46,23 +46,24 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.brokensmpgodshards.procedures.Enity609animatedThisEntityKillsAnotherOneProcedure;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModEntities;
 
-public class ButcherEntity extends Monster implements GeoEntity {
-	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(ButcherEntity.class, EntityDataSerializers.BOOLEAN);
-	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(ButcherEntity.class, EntityDataSerializers.STRING);
-	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(ButcherEntity.class, EntityDataSerializers.STRING);
+public class VirusButcherEntity extends Monster implements GeoEntity {
+	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(VirusButcherEntity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(VirusButcherEntity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(VirusButcherEntity.class, EntityDataSerializers.STRING);
 	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 	private boolean swinging;
 	private boolean lastloop;
 	private long lastSwing;
 	public String animationprocedure = "empty";
 
-	public ButcherEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(BrokenSmpGodShardsModEntities.BUTCHER.get(), world);
+	public VirusButcherEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(BrokenSmpGodShardsModEntities.VIRUS_BUTCHER.get(), world);
 	}
 
-	public ButcherEntity(EntityType<ButcherEntity> type, Level world) {
+	public VirusButcherEntity(EntityType<VirusButcherEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
@@ -74,7 +75,7 @@ public class ButcherEntity extends Monster implements GeoEntity {
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "butc");
+		this.entityData.define(TEXTURE, "butcher_virus");
 	}
 
 	public void setTexture(String texture) {
@@ -104,7 +105,7 @@ public class ButcherEntity extends Monster implements GeoEntity {
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
 		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Player.class, true, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, TheSpitterEntity.class, true, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, ButcherEntity.class, true, false));
 	}
 
 	@Override
@@ -133,6 +134,12 @@ public class ButcherEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		Enity609animatedThisEntityKillsAnotherOneProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+	}
+
+	@Override
 	public void addAdditionalSaveData(CompoundTag compound) {
 		super.addAdditionalSaveData(compound);
 		compound.putString("Texture", this.getTexture());
@@ -157,16 +164,16 @@ public class ButcherEntity extends Monster implements GeoEntity {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(BrokenSmpGodShardsModEntities.BUTCHER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(BrokenSmpGodShardsModEntities.VIRUS_BUTCHER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
-		builder = builder.add(Attributes.MAX_HEALTH, 20);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
+		builder = builder.add(Attributes.MAX_HEALTH, 40);
 		builder = builder.add(Attributes.ARMOR, 1);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 8);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 16);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 2.3);
 		return builder;
@@ -179,7 +186,7 @@ public class ButcherEntity extends Monster implements GeoEntity {
 			) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("walk"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation"));
 		}
 		return PlayState.STOP;
 	}
@@ -225,7 +232,7 @@ public class ButcherEntity extends Monster implements GeoEntity {
 	protected void tickDeath() {
 		++this.deathTime;
 		if (this.deathTime == 20) {
-			this.remove(ButcherEntity.RemovalReason.KILLED);
+			this.remove(VirusButcherEntity.RemovalReason.KILLED);
 			this.dropExperience();
 		}
 	}

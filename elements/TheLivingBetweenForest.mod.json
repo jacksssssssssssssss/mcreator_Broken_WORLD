@@ -172,6 +172,15 @@
         "maxGroup": 1,
         "weight": 30,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:VirusButcher"
+        },
+        "minGroup": 3,
+        "maxGroup": 4,
+        "weight": 29,
+        "spawnType": "monster"
       }
     ]
   }

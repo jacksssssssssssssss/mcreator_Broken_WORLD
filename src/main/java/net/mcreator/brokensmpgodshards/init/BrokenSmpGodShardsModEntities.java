@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.brokensmpgodshards.entity.ZombietraveleranimatedEntity;
+import net.mcreator.brokensmpgodshards.entity.VirusButcherEntity;
 import net.mcreator.brokensmpgodshards.entity.TurretBetweenEntityProjectile;
 import net.mcreator.brokensmpgodshards.entity.TurretBetweenEntity;
 import net.mcreator.brokensmpgodshards.entity.TheSpitterEntityProjectile;
@@ -118,6 +119,10 @@ public class BrokenSmpGodShardsModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TheSpitterEntityProjectile>> THE_SPITTER_PROJECTILE = register("projectile_the_spitter", EntityType.Builder.<TheSpitterEntityProjectile>of(TheSpitterEntityProjectile::new, MobCategory.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(TheSpitterEntityProjectile::new).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<VirusButcherEntity>> VIRUS_BUTCHER = register("virus_butcher",
+			EntityType.Builder.<VirusButcherEntity>of(VirusButcherEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(VirusButcherEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -141,6 +146,7 @@ public class BrokenSmpGodShardsModEntities {
 			MimicanimatedEntity.init();
 			GuradBOTEntity.init();
 			TheSpitterEntity.init();
+			VirusButcherEntity.init();
 		});
 	}
 
@@ -161,5 +167,6 @@ public class BrokenSmpGodShardsModEntities {
 		event.put(MIMICANIMATED.get(), MimicanimatedEntity.createAttributes().build());
 		event.put(GURAD_BOT.get(), GuradBOTEntity.createAttributes().build());
 		event.put(THE_SPITTER.get(), TheSpitterEntity.createAttributes().build());
+		event.put(VIRUS_BUTCHER.get(), VirusButcherEntity.createAttributes().build());
 	}
 }

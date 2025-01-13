@@ -2,9 +2,9 @@
   "_fv": 69,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "The Spitter",
+    "mobName": "Virus Butcher",
     "mobLabel": "",
-    "mobModelTexture": "the_spitter.png",
+    "mobModelTexture": "butcher_virus.png",
     "mobModelGlowTexture": "",
     "visualScale": {
       "fixedValue": 1.0
@@ -17,14 +17,14 @@
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "stepHeight": 0.0,
+    "stepHeight": 0.6,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -3407668,
+      "value": -6750055,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -52480,
+      "value": -3381760,
       "falpha": 0.0
     },
     "creativeTabs": [
@@ -54,15 +54,15 @@
       "value": ""
     },
     "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEAD",
-    "attackStrength": 0,
-    "attackKnockback": 0.0,
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 16,
+    "attackKnockback": 2.3000000000000003,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.0,
-    "armorBaseValue": 0.9,
-    "trackingRange": 76,
-    "followRange": 11,
-    "health": 10,
+    "movementSpeed": 0.2,
+    "armorBaseValue": 1.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 40,
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
@@ -70,18 +70,18 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "deathTime": 20,
-    "lerp": 4,
+    "lerp": 3,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
     "immuneToFire": false,
-    "immuneToArrows": true,
-    "immuneToFallDamage": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
     "immuneToCactus": false,
-    "immuneToDrowning": true,
-    "immuneToLightning": true,
-    "immuneToPotions": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
     "immuneToTrident": false,
@@ -92,16 +92,16 @@
       "value": ""
     },
     "livingSound": {
-      "value": "block.honey_block.fall"
+      "value": "CUSTOM:pill"
     },
     "hurtSound": {
-      "value": "block.honey_block.break"
+      "value": "block.chest.locked"
     },
     "deathSound": {
-      "value": "CUSTOM:spitters"
+      "value": "block.sculk.break"
     },
     "stepSound": {
-      "value": "block.bone_block.step"
+      "value": "block.soul_sand.step"
     },
     "raidCelebrationSound": {
       "value": ""
@@ -109,25 +109,22 @@
     "whenMobDies": {
       "name": "Enity609animatedThisEntityKillsAnotherOne"
     },
-    "whenThisMobKillsAnother": {
-      "name": "TheSpitterThisEntityKillsAnotherOne"
-    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:GuradBOT</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:Hummanhaz</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:Butcher</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"look_around\" x=\"15\" y=\"311\"><field name=\"condition\">null,null</field></block><block type=\"swim_in_water\" x=\"43\" y=\"319\"><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field></block></next></block></xml>",
-    "model": "the_spitter.geo.json",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:Butcher</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "butchervirus.geo.json",
     "groupName": "",
-    "animation1": "idle",
-    "animation2": "",
+    "animation1": "animation",
+    "animation2": "walk",
     "animation3": "",
     "animation4": "atack",
     "animation5": "",
     "animation6": "",
     "animation7": "",
-    "animation8": "",
+    "animation8": "atack",
     "animation9": "",
     "animation10": "",
-    "enable2": false,
+    "enable2": true,
     "enable3": false,
     "enable4": true,
     "enable5": false,
@@ -142,15 +139,15 @@
     "headMovement": false,
     "eyeHeight": false,
     "breedTriggerItems": [],
-    "ranged": true,
+    "ranged": false,
     "rangedAttackItem": {
-      "value": "CUSTOM:Acid"
+      "value": ""
     },
-    "rangedItemType": "Default item",
+    "rangedItemType": "Knife",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "height": 1.0,
-    "attackRate": 7,
+    "attackRate": 3,
     "raidSpawnsCount": [
       4,
       3,

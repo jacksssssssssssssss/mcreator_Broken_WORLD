@@ -52,6 +52,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.brokensmpgodshards.procedures.TheSpitterThisEntityKillsAnotherOneProcedure;
 import net.mcreator.brokensmpgodshards.procedures.Enity609animatedThisEntityKillsAnotherOneProcedure;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModEntities;
 
@@ -114,6 +115,7 @@ public class TheSpitterEntity extends Monster implements RangedAttackMob, GeoEnt
 		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, true, false));
 		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, GuradBOTEntity.class, true, false));
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, HummanhazEntity.class, true, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, ButcherEntity.class, true, false));
 		this.goalSelector.addGoal(1, new TheSpitterEntity.RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
@@ -251,6 +253,12 @@ public class TheSpitterEntity extends Monster implements RangedAttackMob, GeoEnt
 	}
 
 	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		Enity609animatedThisEntityKillsAnotherOneProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+	}
+
+	@Override
 	public void addAdditionalSaveData(CompoundTag compound) {
 		super.addAdditionalSaveData(compound);
 		compound.putString("Texture", this.getTexture());
@@ -266,7 +274,7 @@ public class TheSpitterEntity extends Monster implements RangedAttackMob, GeoEnt
 	@Override
 	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
 		super.awardKillScore(entity, score, damageSource);
-		Enity609animatedThisEntityKillsAnotherOneProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		TheSpitterThisEntityKillsAnotherOneProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

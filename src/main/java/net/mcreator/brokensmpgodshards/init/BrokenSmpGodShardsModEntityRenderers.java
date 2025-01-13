@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.brokensmpgodshards.client.renderer.ZombietraveleranimatedRenderer;
+import net.mcreator.brokensmpgodshards.client.renderer.VirusButcherRenderer;
 import net.mcreator.brokensmpgodshards.client.renderer.TurretBetweenRenderer;
 import net.mcreator.brokensmpgodshards.client.renderer.TheSpitterRenderer;
 import net.mcreator.brokensmpgodshards.client.renderer.SliceRenderer;
@@ -58,5 +59,6 @@ public class BrokenSmpGodShardsModEntityRenderers {
 		event.registerEntityRenderer(BrokenSmpGodShardsModEntities.GURAD_BOT.get(), GuradBOTRenderer::new);
 		event.registerEntityRenderer(BrokenSmpGodShardsModEntities.THE_SPITTER.get(), TheSpitterRenderer::new);
 		event.registerEntityRenderer(BrokenSmpGodShardsModEntities.THE_SPITTER_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(BrokenSmpGodShardsModEntities.VIRUS_BUTCHER.get(), VirusButcherRenderer::new);
 	}
 }

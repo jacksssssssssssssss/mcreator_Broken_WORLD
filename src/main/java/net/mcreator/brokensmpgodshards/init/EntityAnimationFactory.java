@@ -5,6 +5,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
 import net.mcreator.brokensmpgodshards.entity.ZombietraveleranimatedEntity;
+import net.mcreator.brokensmpgodshards.entity.VirusButcherEntity;
 import net.mcreator.brokensmpgodshards.entity.TheSpitterEntity;
 import net.mcreator.brokensmpgodshards.entity.MimicanimatedEntity;
 import net.mcreator.brokensmpgodshards.entity.GuradBOTEntity;
@@ -60,6 +61,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof TheSpitterEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof VirusButcherEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
