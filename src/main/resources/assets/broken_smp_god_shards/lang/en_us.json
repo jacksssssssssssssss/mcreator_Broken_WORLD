@@ -1,6 +1,5 @@
 {
   "item.broken_smp_god_shards.admin_staffof_time": "Staff of Time",
-  "block.broken_smp_god_shards.lab_door": "Lab Door",
   "biome.broken_smp_god_shards.the_living_between_forest": "The dead Between Forest",
   "item.broken_smp_god_shards.betweenturretschematic": "Between Turret Schematic",
   "subtitles.spitters": "",
@@ -79,7 +78,7 @@
   "item.broken_smp_god_shards.entity_611_spawn_egg": "Entity 6 1 1 Spawn Egg",
   "item.broken_smp_god_shards.between_bear_trap_schematic": "Between Bear Trap Schematic",
   "key.broken_smp_god_shards.staffof_time": "Staff of Time",
-  "item.broken_smp_god_shards.between_virus": "Between Virus",
+  "item.broken_smp_god_shards.between_virus": "One with the Between Virus",
   "item.broken_smp_god_shards.herb_crusher": "Mortar\u0026Pestle",
   "item.broken_smp_god_shards.tools": "Tools",
   "item.broken_smp_god_shards.junk": "scrap",

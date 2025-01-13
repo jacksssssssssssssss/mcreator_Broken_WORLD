@@ -20,12 +20,6 @@ authors="jackh, MCreator"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.broken_smp_god_shards]]
-    modId="mcreator_link"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.broken_smp_god_shards]]
     modId="geckolib"

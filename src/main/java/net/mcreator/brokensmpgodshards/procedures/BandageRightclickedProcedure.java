@@ -16,7 +16,7 @@ public class BandageRightclickedProcedure {
 			return;
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(BrokenSmpGodShardsModItems.BANDAGE.get())) : false) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 90, (int) 1.5));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 90, 4));
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(BrokenSmpGodShardsModItems.BANDAGE.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());

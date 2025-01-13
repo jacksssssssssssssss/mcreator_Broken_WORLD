@@ -3,8 +3,11 @@ package net.mcreator.brokensmpgodshards.procedures;
 import net.minecraft.world.scores.PlayerTeam;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
 
+import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModMobEffects;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModItems;
 
 public class BetweenVirusRightclickedProcedure {
@@ -13,6 +16,8 @@ public class BetweenVirusRightclickedProcedure {
 			return;
 		if (entity instanceof Player _player)
 			_player.getCooldowns().addCooldown(itemstack.getItem(), 360);
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(BrokenSmpGodShardsModMobEffects.BETWEENIFY_EFFECT.get(), 60, 1, false, false));
 		{
 			Entity _entityTeam = entity;
 			PlayerTeam _pt = _entityTeam.level().getScoreboard().getPlayerTeam("One_with_the_between");

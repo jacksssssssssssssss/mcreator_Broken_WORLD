@@ -16,7 +16,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.item.ItemProperties;
@@ -136,16 +135,11 @@ public class BrokenSmpGodShardsModItems {
 	public static final RegistryObject<Item> SPEED_FLOWER = block(BrokenSmpGodShardsModBlocks.SPEED_FLOWER);
 	public static final RegistryObject<Item> SPEEDBUBBLEMUSH = REGISTRY.register("speedbubblemush", () -> new SpeedbubblemushItem());
 	public static final RegistryObject<Item> VIRUS_BUTCHER_SPAWN_EGG = REGISTRY.register("virus_butcher_spawn_egg", () -> new ForgeSpawnEggItem(BrokenSmpGodShardsModEntities.VIRUS_BUTCHER, -6750055, -3381760, new Item.Properties()));
-	public static final RegistryObject<Item> LAB_DOOR = doubleBlock(BrokenSmpGodShardsModBlocks.LAB_DOOR);
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
-	}
-
-	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
-		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 
 	@SubscribeEvent

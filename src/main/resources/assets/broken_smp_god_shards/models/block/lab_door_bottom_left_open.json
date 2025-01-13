@@ -1,9 +1,0 @@
-{
-  "parent": "block/door_bottom_left_open",
-  "textures": {
-    "particle": "broken_smp_god_shards:block/betweengrassside",
-    "bottom": "broken_smp_god_shards:block/betweengrassside",
-    "top": "broken_smp_god_shards:block/betweengrassside"
-  },
-  "render_type": "solid"
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "broken_smp_god_shards:block/betweengrassside"
-  },
-  "render_type": "solid"
-}
