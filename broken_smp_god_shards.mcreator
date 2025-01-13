@@ -2699,6 +2699,28 @@
           "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/SpeedbubblepotionBrewingRecipe.java"
         ]
       }
+    },
+    {
+      "name": "Speedmushrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedmushrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/speed_mush_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeedmushPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedmush_painting",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [
@@ -2916,6 +2938,7 @@
       "key.broken_smp_god_shards.deathbetween": "Deathbetween",
       "item.broken_smp_god_shards.acid": "Acid",
       "entity.broken_smp_god_shards.butcher": "Butcher",
+      "painting.broken_smp_god_shards.speedmush_painting.title": "Speed mush",
       "block.broken_smp_god_shards.between_block": "Virus Corpse Block",
       "item.broken_smp_god_shards.butcherknife": "Butcher knife",
       "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
@@ -3028,6 +3051,7 @@
       "entity.broken_smp_god_shards.golemspawn": " Golem",
       "subtitles.pill": "",
       "item.broken_smp_god_shards.turret_between_spawn_egg": "Turret Between Spawn Egg",
+      "painting.broken_smp_god_shards.speedmush_painting.author": "DC",
       "key.broken_smp_god_shards.golem": "Golem"
     }
   },
