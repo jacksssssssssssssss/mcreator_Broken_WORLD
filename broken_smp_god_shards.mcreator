@@ -2699,6 +2699,28 @@
           "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/SpeedbubblepotionBrewingRecipe.java"
         ]
       }
+    },
+    {
+      "name": "Speedmushrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedmushrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_smp_god_shards/recipes/speed_mush_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeedmushPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedmush_painting",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [
@@ -2916,15 +2938,16 @@
       "key.broken_smp_god_shards.deathbetween": "Deathbetween",
       "item.broken_smp_god_shards.acid": "Acid",
       "entity.broken_smp_god_shards.butcher": "Butcher",
+      "painting.broken_smp_god_shards.speedmush_painting.title": "Speed mush",
       "block.broken_smp_god_shards.between_block": "Virus Corpse Block",
-      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
-      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
       "item.broken_smp_god_shards.butcherknife": "Butcher knife",
+      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
+      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
       "item.broken_smp_god_shards.bullet": "Electron Bullet",
       "item.broken_smp_god_shards.reamotebasic": "Basic Remote tape",
       "subtitles.huh": "",
-      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
       "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
+      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
       "entity.broken_smp_god_shards.entity_611": "Entity 6 1 1",
       "gui.broken_smp_god_shards.adminpc.label_day": "day",
       "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
@@ -3028,6 +3051,7 @@
       "entity.broken_smp_god_shards.golemspawn": " Golem",
       "subtitles.pill": "",
       "item.broken_smp_god_shards.turret_between_spawn_egg": "Turret Between Spawn Egg",
+      "painting.broken_smp_god_shards.speedmush_painting.author": "DC",
       "key.broken_smp_god_shards.golem": "Golem"
     }
   },
