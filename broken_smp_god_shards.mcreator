@@ -42,8 +42,8 @@
       "registry_name": "basicreamote",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/BasicreamoteItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/basicreamote.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/basicreamote.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BasicreamoteItem.java"
         ]
       }
     },
@@ -55,11 +55,11 @@
       "registry_name": "betweenstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/block/betweenstone.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweenstone.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenstoneBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/betweenstone.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/betweenstone.json",
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/betweenstone.json",
-          "src/main/resources/assets/broken_smp_god_shards/blockstates/betweenstone.json"
+          "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenstoneBlock.java"
         ]
       }
     },
@@ -72,10 +72,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/broken_smp_god_shards/worldgen/configured_feature/the_i_nbetween_tree.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/world/features/treedecorators/TheINbetweenTrunkDecorator.java",
           "src/main/resources/data/broken_smp_god_shards/worldgen/biome/the_i_nbetween.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/world/features/treedecorators/TheINbetweenLeaveDecorator.java",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/placed_feature/the_i_nbetween_tree.json"
+          "src/main/resources/data/broken_smp_god_shards/worldgen/placed_feature/the_i_nbetween_tree.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/features/treedecorators/TheINbetweenTrunkDecorator.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/features/treedecorators/TheINbetweenLeaveDecorator.java"
         ]
       }
     },
@@ -87,9 +87,9 @@
       "registry_name": "ritral",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritral.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritral.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritral.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritral.json"
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritral.json"
         ]
       }
     },
@@ -204,8 +204,8 @@
       "registry_name": "between_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenIngotItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/between_ingot.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/between_ingot.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenIngotItem.java"
         ]
       }
     },
@@ -217,10 +217,10 @@
       "registry_name": "orebringer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/block/OrebringerBlock.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/block/orebringer.json",
-          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/orebringer.json",
           "src/main/resources/assets/broken_smp_god_shards/blockstates/orebringer.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/orebringer.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/OrebringerBlock.java",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/orebringer.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/orebringer.json"
         ]
       }
@@ -373,8 +373,8 @@
       "registry_name": "rarereamote",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/RarereamoteItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/rarereamote.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/rarereamote.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/RarereamoteItem.java"
         ]
       }
     },
@@ -420,10 +420,10 @@
       "registry_name": "entity_611",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Entity611Renderer.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/Entity611Entity.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/entity_611_spawn_egg.json",
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/entity_611_biome_modifier.json"
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/entity_611_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Entity611Renderer.java"
         ]
       }
     },
@@ -435,8 +435,8 @@
       "registry_name": "cultsquare",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/cultsquare.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/cultsquare.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/cultsquare.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure/cultsquare.json"
         ]
       }
@@ -449,9 +449,9 @@
       "registry_name": "ritralnotlonly",
       "metadata": {
         "files": [
+          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritralnotlonly.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritralnotlonly.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritralnotlonly.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritralnotlonly.json"
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritralnotlonly.json"
         ]
       }
     },
@@ -477,9 +477,9 @@
       "registry_name": "ritralhouse",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritralhouse.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritralhouse.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritralhouse.json"
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritralhouse.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritralhouse.json"
         ]
       }
     },
@@ -509,10 +509,10 @@
       "registry_name": "golemspawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/GolemspawnRenderer.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/GolemspawnEntity.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/golemspawn_spawn_egg.json",
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/golemspawn_biome_modifier.json"
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/golemspawn_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/GolemspawnRenderer.java"
         ]
       }
     },
@@ -524,8 +524,8 @@
       "registry_name": "golemhelpertablet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/golemhelpertablet.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/GolemhelpertabletItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/GolemhelpertabletItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/golemhelpertablet.json"
         ]
       }
     },
@@ -613,11 +613,11 @@
       "registry_name": "hummanhaz",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/HummanhazRenderer.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/HummanhazEntity.java",
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/hummanhaz_biome_modifier.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/hummanhaz_spawn_egg.json",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/HummanhazEntityProjectile.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/hummanhaz_spawn_egg.json"
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/hummanhaz_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/HummanhazRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/HummanhazEntity.java"
         ]
       }
     },
@@ -629,8 +629,8 @@
       "registry_name": "bullet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/bullet.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/BulletItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BulletItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/bullet.json"
         ]
       }
     },
@@ -642,10 +642,10 @@
       "registry_name": "betweenfish",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/BetweenfishEntity.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/BetweenfishRenderer.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenfish_spawn_egg.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/betweenfish_biome_modifier.json",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenfish_spawn_egg.json"
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/BetweenfishRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/BetweenfishEntity.java"
         ]
       }
     },
@@ -707,11 +707,11 @@
       "registry_name": "betweenlog",
       "metadata": {
         "files": [
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/betweenlog.json",
           "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenlogBlock.java",
-          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/betweenlog.json",
-          "src/main/resources/assets/broken_smp_god_shards/models/block/betweenlog.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweenlog.json",
-          "src/main/resources/assets/broken_smp_god_shards/blockstates/betweenlog.json"
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/betweenlog.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/betweenlog.json"
         ]
       }
     },
@@ -723,13 +723,13 @@
       "registry_name": "junkore",
       "metadata": {
         "files": [
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/junkore_biome_modifier.json",
           "src/main/resources/assets/broken_smp_god_shards/blockstates/junkore.json",
           "src/main/resources/assets/broken_smp_god_shards/models/block/junkore.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/junkore.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/configured_feature/junkore.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/placed_feature/junkore.json",
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/junkore_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/block/JunkoreBlock.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/block/JunkoreBlock.java",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/configured_feature/junkore.json"
         ]
       }
     },
@@ -742,8 +742,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/lab_1.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lab_1.json",
-          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/lab_1.json"
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure/lab_1.json",
+          "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lab_1.json"
         ]
       }
     },
@@ -791,8 +791,8 @@
       "registry_name": "butcherknife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/butcherknife.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/ButcherknifeItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ButcherknifeItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/butcherknife.json"
         ]
       }
     },
@@ -816,8 +816,8 @@
       "registry_name": "betweenfleshbits",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenfleshbits.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenfleshbitsItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenfleshbitsItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenfleshbits.json"
         ]
       }
     },
@@ -841,8 +841,8 @@
       "registry_name": "junkpickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/JunkpickaxeItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/junkpickaxe.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/junkpickaxe.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/JunkpickaxeItem.java"
         ]
       }
     },
@@ -908,9 +908,9 @@
       "registry_name": "between_anvil",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/ScrapmakerMenu.java",
           "src/main/java/net/mcreator/brokensmpgodshards/network/ScrapmakerButtonMessage.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/gui/ScrapmakerScreen.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/client/gui/ScrapmakerScreen.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/ScrapmakerMenu.java"
         ]
       }
     },
@@ -924,10 +924,10 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/block/Scrapmakerv1Block.java",
           "src/main/java/net/mcreator/brokensmpgodshards/block/entity/Scrapmakerv1BlockEntity.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/scrapmakerv_1.json",
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/scrapmakerv_1.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/scrapmakerv_1.json",
-          "src/main/resources/assets/broken_smp_god_shards/blockstates/scrapmakerv_1.json",
-          "src/main/resources/assets/broken_smp_god_shards/models/block/scrapmakerv_1.json"
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/scrapmakerv_1.json"
         ]
       }
     },
@@ -965,10 +965,10 @@
       "registry_name": "scraptrap",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/ScraptrapEntity.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/scraptrap_spawn_egg.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/scraptrap_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ScraptrapRenderer.java"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/scraptrap_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ScraptrapRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/ScraptrapEntity.java"
         ]
       }
     },
@@ -980,12 +980,12 @@
       "registry_name": "between_anvil",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/between_anvil.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenAnvilBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/between_anvil.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/block/between_anvil.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/between_anvil.json",
           "src/main/java/net/mcreator/brokensmpgodshards/block/entity/BetweenAnvilBlockEntity.java",
-          "src/main/resources/assets/broken_smp_god_shards/blockstates/between_anvil.json",
-          "src/main/resources/assets/broken_smp_god_shards/models/block/between_anvil.json"
+          "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenAnvilBlock.java",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/between_anvil.json"
         ]
       }
     },
@@ -1055,10 +1055,10 @@
       "registry_name": "betweentrap",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/BetweentrapEntity.java",
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/betweentrap_biome_modifier.json",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweentrap_spawn_egg.json",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/BetweentrapRenderer.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/betweentrap_spawn_egg.json"
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/BetweentrapEntity.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/betweentrap_biome_modifier.json"
         ]
       }
     },
@@ -1083,8 +1083,8 @@
       "registry_name": "junktrap_schematic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/JunktrapSchematicItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/junktrap_schematic.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/junktrap_schematic.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/JunktrapSchematicItem.java"
         ]
       }
     },
@@ -1096,11 +1096,11 @@
       "registry_name": "turret_between",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/turret_between_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/TurretBetweenEntityProjectile.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/TurretBetweenRenderer.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/TurretBetweenEntity.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/turret_between_spawn_egg.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/turret_between_spawn_egg.json",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/turret_between_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/TurretBetweenRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TurretBetweenEntityProjectile.java"
         ]
       }
     },
@@ -1112,8 +1112,8 @@
       "registry_name": "turret",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/turret.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/TurretItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/TurretItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/turret.json"
         ]
       }
     },
@@ -1196,8 +1196,8 @@
       "registry_name": "butcherkniferes",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/ButcherkniferesItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/butcherkniferes.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/butcherkniferes.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ButcherkniferesItem.java"
         ]
       }
     },
@@ -1209,8 +1209,8 @@
       "registry_name": "rustic_crosbow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/RusticCrosbowRenderer.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/RusticCrosbowEntity.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/RusticCrosbowEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/RusticCrosbowRenderer.java"
         ]
       }
     },
@@ -1222,8 +1222,8 @@
       "registry_name": "crosbowrustic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/crosbowrustic.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/CrosbowrusticItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/CrosbowrusticItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/crosbowrustic.json"
         ]
       }
     },
@@ -1253,8 +1253,8 @@
       "registry_name": "schamaticknifes",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/SchamaticknifesItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/schamaticknifes.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/schamaticknifes.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/SchamaticknifesItem.java"
         ]
       }
     },
@@ -1344,8 +1344,8 @@
       "registry_name": "scrapbunch",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/scrapbunch.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/ScrapbunchItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/ScrapbunchItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/scrapbunch.json"
         ]
       }
     },
@@ -1433,9 +1433,9 @@
       "registry_name": "adminpc",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/network/AdminpcButtonMessage.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/AdminpcMenu.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/gui/AdminpcScreen.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/AdminpcMenu.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/network/AdminpcButtonMessage.java"
         ]
       }
     },
@@ -1447,9 +1447,9 @@
       "registry_name": "detonator",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/inventory/DetonatorInventoryCapability.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/detonator.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/DetonatorItem.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/inventory/DetonatorInventoryCapability.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/DetonatorItem.java"
         ]
       }
     },
@@ -1461,10 +1461,10 @@
       "registry_name": "admineye",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/admineye_biome_modifier.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/admineye_spawn_egg.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/AdmineyeEntity.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/AdmineyeRenderer.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/AdmineyeRenderer.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/admineye_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/AdmineyeEntity.java"
         ]
       }
     },
@@ -1510,8 +1510,8 @@
       "registry_name": "slice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/SliceEntity.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/SliceRenderer.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/SliceRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/SliceEntity.java"
         ]
       }
     },
@@ -1843,9 +1843,9 @@
       "registry_name": "admin_staffof_time",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/admin_staffof_time_0.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/AdminStaffofTimeItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/admin_staffof_time.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/AdminStaffofTimeItem.java"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/admin_staffof_time_0.json"
         ]
       }
     },
@@ -1960,8 +1960,8 @@
       "registry_name": "betweenthrowing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenthrowingItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenthrowing.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweenthrowing.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenthrowingItem.java"
         ]
       }
     },
@@ -1973,8 +1973,8 @@
       "registry_name": "bandage",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/bandage.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/BandageItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BandageItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/bandage.json"
         ]
       }
     },
@@ -2070,14 +2070,14 @@
       "registry_name": "eyecore",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_smp_god_shards/worldgen/configured_feature/eyecore.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/block/EyecoreBlock.java",
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/eyecore.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/EyecoreBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/eyecore.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/placed_feature/eyecore.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/eyecore_biome_modifier.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/eyecore.json",
           "src/main/resources/assets/broken_smp_god_shards/models/block/eyecore.json",
-          "src/main/resources/assets/broken_smp_god_shards/blockstates/eyecore.json"
+          "src/main/resources/data/broken_smp_god_shards/worldgen/configured_feature/eyecore.json"
         ]
       }
     },
@@ -2147,8 +2147,8 @@
       "registry_name": "grappel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/GrappelItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/grappel.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/grappel.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/GrappelItem.java"
         ]
       }
     },
@@ -2197,8 +2197,8 @@
       "registry_name": "coins",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/coins.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/CoinsItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/CoinsItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/coins.json"
         ]
       }
     },
@@ -2259,11 +2259,11 @@
       "registry_name": "grassbetween",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/block/grassbetween.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/grassbetween.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/grassbetween.json",
           "src/main/java/net/mcreator/brokensmpgodshards/block/GrassbetweenBlock.java",
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/grassbetween.json",
-          "src/main/resources/assets/broken_smp_god_shards/blockstates/grassbetween.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/block/grassbetween.json"
         ]
       }
     },
@@ -2275,11 +2275,11 @@
       "registry_name": "zombietraveleranimated",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/ZombietraveleranimatedEntity.java",
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/zombietraveleranimated_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ZombietraveleranimatedRenderer.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/zombietraveleranimated_spawn_egg.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ZombietraveleranimatedModel.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ZombietraveleranimatedModel.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ZombietraveleranimatedRenderer.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/zombietraveleranimated_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/ZombietraveleranimatedEntity.java"
         ]
       }
     },
@@ -2293,9 +2293,9 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ButcherRenderer.java",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/butcher_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/ButcherEntity.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ButcherModel.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/butcher_spawn_egg.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ButcherModel.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/ButcherEntity.java"
         ]
       }
     },
@@ -2319,11 +2319,11 @@
       "registry_name": "enity_609animated",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedModel.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedRenderer.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/enity_609animated_spawn_egg.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/enity_609animated_biome_modifier.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/Enity609animatedEntity.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedModel.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedRenderer.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/Enity609animatedEntity.java"
         ]
       }
     },
@@ -2403,10 +2403,10 @@
       "registry_name": "enity_609animatedpic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/Enity609animatedpicEntity.java",
-          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/enity_609animatedpic_biome_modifier.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/enity_609animatedpic_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/Enity609animatedpicEntity.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedpicRenderer.java",
+          "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/enity_609animatedpic_biome_modifier.json",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedpicModel.java"
         ]
       }
@@ -2449,11 +2449,11 @@
       "registry_name": "mimicanimated",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/MimicanimatedEntityProjectile.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/MimicanimatedRenderer.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/MimicanimatedEntityProjectile.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/MimicanimatedModel.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/MimicanimatedEntity.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/mimicanimated_spawn_egg.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/MimicanimatedEntity.java",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/mimicanimated_biome_modifier.json"
         ]
       }
@@ -2466,10 +2466,10 @@
       "registry_name": "gurad_bot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/gurad_bot_spawn_egg.json",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/GuradBOTModel.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/GuradBOTRenderer.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/GuradBOTEntity.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/gurad_bot_spawn_egg.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/gurad_bot_biome_modifier.json"
         ]
       }
@@ -2494,12 +2494,12 @@
       "registry_name": "the_spitter",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/TheSpitterRenderer.java",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntityProjectile.java",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntity.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/TheSpitterModel.java",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/the_spitter_biome_modifier.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntityProjectile.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/the_spitter_spawn_egg.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntity.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/TheSpitterRenderer.java"
         ]
       }
     },
@@ -2511,8 +2511,8 @@
       "registry_name": "acid",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/acid.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/AcidItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/item/AcidItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/acid.json"
         ]
       }
     },
@@ -2564,8 +2564,8 @@
       "registry_name": "between_virus",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenVirusItem.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/between_virus.json"
+          "src/main/resources/assets/broken_smp_god_shards/models/item/between_virus.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenVirusItem.java"
         ]
       }
     },
@@ -2601,10 +2601,10 @@
       "registry_name": "between_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/between_block.json",
           "src/main/resources/assets/broken_smp_god_shards/blockstates/between_block.json",
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/between_block.json",
           "src/main/resources/assets/broken_smp_god_shards/models/block/between_block.json",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/between_block.json",
           "src/main/resources/assets/broken_smp_god_shards/models/block/between_block_top.json",
           "src/main/resources/assets/broken_smp_god_shards/models/block/between_block_full.json",
           "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenBlockBlock.java"
@@ -2656,6 +2656,47 @@
             "name": "entity",
             "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "SpeedFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/block/speed_flower.json",
+          "src/main/resources/assets/broken_smp_god_shards/blockstates/speed_flower.json",
+          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/speed_flower.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/block/SpeedFlowerBlock.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/speed_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "Speedbubblemush",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedbubblemush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/item/SpeedbubblemushItem.java",
+          "src/main/resources/assets/broken_smp_god_shards/models/item/speedbubblemush.json"
+        ]
+      }
+    },
+    {
+      "name": "Speedbubblepotion",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedbubblepotion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/SpeedbubblepotionBrewingRecipe.java"
         ]
       }
     }
@@ -2956,6 +2997,7 @@
       "gui.broken_smp_god_shards.between_anvil.button_scrapify": "scrapify",
       "item.broken_smp_god_shards.turret": "Turret Reamote",
       "item.broken_smp_god_shards.scraptrap_spawn_egg": "Junk Trap Spawn Egg",
+      "item.broken_smp_god_shards.speedbubblemush": "Speed bubble mush",
       "item.broken_smp_god_shards.grappel": "Grappling Hook Glove",
       "item_group.broken_smp_god_shards.brokenworld": "Broken World",
       "subtitles.pic609": "",
@@ -2981,6 +3023,7 @@
       "gui.broken_smp_god_shards.between_anvil.label_scrap_maker": "Scrap Maker ",
       "item.minecraft.potion.effect.butchersrage": "Potion of Butchers Rage",
       "gui.broken_smp_god_shards.adminpc.label_night": "night",
+      "block.broken_smp_god_shards.speed_flower": "Speed bubble flower",
       "block.broken_smp_god_shards.eyecore": "Eyecore",
       "entity.broken_smp_god_shards.golemspawn": " Golem",
       "subtitles.pill": "",
