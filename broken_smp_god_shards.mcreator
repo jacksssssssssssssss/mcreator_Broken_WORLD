@@ -2887,6 +2887,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "VIRUS",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "virus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/VIRUSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
