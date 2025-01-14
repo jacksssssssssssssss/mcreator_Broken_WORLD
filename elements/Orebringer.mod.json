@@ -134,12 +134,6 @@
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.DEEPSLATE_DIAMOND_ORE"
       }
     ],
     "generationShape": "UNIFORM",

@@ -137,9 +137,6 @@
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "Blocks.DEEPSLATE_IRON_ORE"
       }
     ],
     "generationShape": "UNIFORM",

@@ -13,10 +13,7 @@
     "separation": 40,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:TheINbetween"
-      },
-      {
-        "value": "CUSTOM:Betweencaves"
+        "value": "CUSTOM:TheLivingBetweenForest"
       }
     ],
     "terrainAdaptation": "none",

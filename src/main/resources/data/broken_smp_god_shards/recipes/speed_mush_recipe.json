@@ -4,6 +4,9 @@
   "ingredients": [
     {
       "item": "broken_smp_god_shards:speed_flower"
+    },
+    {
+      "item": "broken_smp_god_shards:herb_crusher"
     }
   ],
   "result": {

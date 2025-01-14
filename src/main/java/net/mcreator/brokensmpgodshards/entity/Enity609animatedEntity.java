@@ -34,6 +34,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
@@ -48,6 +49,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.brokensmpgodshards.procedures.Enity609animatedThisEntityKillsAnotherOneProcedure;
+import net.mcreator.brokensmpgodshards.procedures.Death_609Procedure;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModEntities;
 
 public class Enity609animatedEntity extends Monster implements GeoEntity {
@@ -153,6 +155,12 @@ public class Enity609animatedEntity extends Monster implements GeoEntity {
 		super.readAdditionalSaveData(compound);
 		if (compound.contains("Texture"))
 			this.setTexture(compound.getString("Texture"));
+	}
+
+	@Override
+	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
+		super.awardKillScore(entity, score, damageSource);
+		Death_609Procedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

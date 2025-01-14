@@ -15,9 +15,6 @@
       "absolute": -20
     }
   },
-  "biomes": [
-    "broken_smp_god_shards:the_i_nbetween",
-    "broken_smp_god_shards:betweencaves"
-  ],
+  "biomes": "broken_smp_god_shards:the_living_between_forest",
   "use_expansion_hack": false
 }

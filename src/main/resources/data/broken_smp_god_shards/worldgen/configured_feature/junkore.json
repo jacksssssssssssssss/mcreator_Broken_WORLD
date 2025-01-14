@@ -12,17 +12,6 @@
         "state": {
           "Name": "broken_smp_god_shards:junkore"
         }
-      },
-      {
-        "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "minecraft:deepslate_iron_ore"
-          }
-        },
-        "state": {
-          "Name": "broken_smp_god_shards:junkore"
-        }
       }
     ]
   }
