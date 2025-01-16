@@ -1,12 +1,6 @@
 package net.mcreator.brokensmpgodshards.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModEntities;
+import net.minecraftforge.eventbus.api.Event;
 
 public class Death_609Procedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

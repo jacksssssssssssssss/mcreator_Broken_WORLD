@@ -1,10 +1,6 @@
 package net.mcreator.brokensmpgodshards.entity.model;
 
-import software.bernie.geckolib.model.GeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.brokensmpgodshards.entity.GuradBOTEntity;
+import software.bernie.geckolib.core.animation.AnimationState;
 
 public class GuradBOTModel extends GeoModel<GuradBOTEntity> {
 	@Override

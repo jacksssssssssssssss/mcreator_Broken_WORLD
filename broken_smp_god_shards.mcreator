@@ -32,8 +32,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate/Remote"
+      }
     },
     {
       "name": "Basicreamote",
@@ -46,8 +45,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/BasicreamoteItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/basicreamote.json"
         ]
-      },
-      "path": "~/The first upadate/Remote"
+      }
     },
     {
       "name": "Betweenstone",
@@ -63,8 +61,7 @@
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/betweenstone.json",
           "src/main/resources/assets/broken_smp_god_shards/blockstates/betweenstone.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "TheINbetween",
@@ -80,8 +77,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/world/features/treedecorators/TheINbetweenLeaveDecorator.java",
           "src/main/resources/data/broken_smp_god_shards/worldgen/placed_feature/the_i_nbetween_tree.json"
         ]
-      },
-      "path": "~/The first upadate/biomes"
+      }
     },
     {
       "name": "Ritral",
@@ -95,8 +91,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritral.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritral.json"
         ]
-      },
-      "path": "~/The first upadate/Structures"
+      }
     },
     {
       "name": "Thebetween",
@@ -109,8 +104,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/ThebetweenItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/thebetween.json"
         ]
-      },
-      "path": "~/The first upadate/Remote"
+      }
     },
     {
       "name": "Blood",
@@ -123,8 +117,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/particle/BloodParticle.java",
           "src/main/resources/assets/broken_smp_god_shards/particles/blood.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "DeathbrigerLivingEntityIsHitWithItem",
@@ -158,8 +151,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Deathbriger",
@@ -172,8 +164,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/DeathbrigerItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/script_of_knockback.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Bloods",
@@ -203,8 +194,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "BetweenIngot",
@@ -217,8 +207,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenIngotItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/between_ingot.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Orebringer",
@@ -234,8 +223,7 @@
           "src/main/resources/assets/broken_smp_god_shards/blockstates/orebringer.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/orebringer.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "DeathbetweenOnKeyReleased",
@@ -269,8 +257,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Deathbetween",
@@ -282,8 +269,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/network/DeathbetweenMessage.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Countdown",
@@ -301,8 +287,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Script",
@@ -315,8 +300,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/particle/ScriptParticle.java",
           "src/main/resources/assets/broken_smp_god_shards/particles/script.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Dndenergy",
@@ -329,8 +313,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/DndenergyItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/dndenergy.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Tools",
@@ -343,8 +326,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/tools.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/ToolsItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Fix",
@@ -356,8 +338,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/fix.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Reamotebasic",
@@ -370,8 +351,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/reamotebasic.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/ReamotebasicItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Toolsres",
@@ -383,8 +363,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/toolsres.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Rarereamote",
@@ -397,8 +376,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/RarereamoteItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/rarereamote.json"
         ]
-      },
-      "path": "~/The first upadate/Remote"
+      }
     },
     {
       "name": "RarereamoteRightclicked",
@@ -432,8 +410,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate/Remote"
+      }
     },
     {
       "name": "Entity611",
@@ -448,8 +425,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/entity_611_spawn_egg.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/entity_611_biome_modifier.json"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Cultsquare",
@@ -463,8 +439,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/cultsquare.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure/cultsquare.json"
         ]
-      },
-      "path": "~/The first upadate/Structures"
+      }
     },
     {
       "name": "Ritralnotlonly",
@@ -478,8 +453,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritralnotlonly.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritralnotlonly.json"
         ]
-      },
-      "path": "~/The first upadate/Structures"
+      }
     },
     {
       "name": "Ritalruin",
@@ -493,8 +467,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure/ritalruin.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritalruin.json"
         ]
-      },
-      "path": "~/The first upadate/Structures"
+      }
     },
     {
       "name": "Ritralhouse",
@@ -508,8 +481,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/ritralhouse.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/ritralhouse.json"
         ]
-      },
-      "path": "~/The first upadate/Structures"
+      }
     },
     {
       "name": "Entity611PlayerCollidesWithThisEntity",
@@ -527,8 +499,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Golemspawn",
@@ -543,8 +514,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/golemspawn_spawn_egg.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/golemspawn_biome_modifier.json"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Golemhelpertablet",
@@ -557,8 +527,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/golemhelpertablet.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/GolemhelpertabletItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Cooldowngolme",
@@ -576,8 +545,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "GolemOnKeyReleased",
@@ -611,8 +579,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Golem",
@@ -624,8 +591,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/network/GolemMessage.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Deathinbetweenres",
@@ -637,8 +603,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/deathinbetweenres.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Hummanhaz",
@@ -654,8 +619,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/HummanhazEntityProjectile.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/hummanhaz_spawn_egg.json"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Bullet",
@@ -668,8 +632,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/bullet.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/BulletItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Betweenfish",
@@ -684,8 +647,7 @@
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/betweenfish_biome_modifier.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweenfish_spawn_egg.json"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Fish",
@@ -698,8 +660,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/fish.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/FishItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Dndres",
@@ -711,8 +672,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/dndres.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Junk",
@@ -725,8 +685,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/JunkItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/junk.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Junks",
@@ -738,8 +697,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/junks.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Betweenlog",
@@ -755,8 +713,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweenlog.json",
           "src/main/resources/assets/broken_smp_god_shards/blockstates/betweenlog.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Junkore",
@@ -774,8 +731,7 @@
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/junkore_biome_modifier.json",
           "src/main/java/net/mcreator/brokensmpgodshards/block/JunkoreBlock.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Lab1",
@@ -789,8 +745,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lab_1.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure/lab_1.json"
         ]
-      },
-      "path": "~/The first upadate/Structures"
+      }
     },
     {
       "name": "Lavagang",
@@ -804,8 +759,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/lavagang.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lavagang.json"
         ]
-      },
-      "path": "~/The first upadate/Structures"
+      }
     },
     {
       "name": "Woodbetween",
@@ -817,8 +771,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/woodbetween.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Brokenworld",
@@ -828,8 +781,7 @@
       "registry_name": "brokenworld",
       "metadata": {
         "files": []
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Butcherknife",
@@ -842,8 +794,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/butcherknife.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/ButcherknifeItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Enity610loottabal",
@@ -855,8 +806,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/enity_610.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Betweenfleshbits",
@@ -869,8 +819,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweenfleshbits.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenfleshbitsItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "BetweenFlesh",
@@ -882,8 +831,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/between_flesh.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Junkpickaxe",
@@ -896,8 +844,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/JunkpickaxeItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/junkpickaxe.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Pickaxe609loot",
@@ -909,8 +856,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/pickaxe_609.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Junkpicrec",
@@ -922,8 +868,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/junkpicrec.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Junkoreloot",
@@ -935,8 +880,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/junkore.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Scrapify",
@@ -954,8 +898,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Scrapmaker",
@@ -969,8 +912,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/network/ScrapmakerButtonMessage.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/gui/ScrapmakerScreen.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Scrapmakerv1",
@@ -987,8 +929,7 @@
           "src/main/resources/assets/broken_smp_god_shards/blockstates/scrapmakerv_1.json",
           "src/main/resources/assets/broken_smp_god_shards/models/block/scrapmakerv_1.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "ScraptrapPlayerCollidesWithThisEntity",
@@ -1014,8 +955,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Scraptrap",
@@ -1030,8 +970,7 @@
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/scraptrap_biome_modifier.json",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/ScraptrapRenderer.java"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "BetweenAnvil",
@@ -1048,8 +987,7 @@
           "src/main/resources/assets/broken_smp_god_shards/blockstates/between_anvil.json",
           "src/main/resources/assets/broken_smp_god_shards/models/block/between_anvil.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Betweenanivil",
@@ -1063,8 +1001,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/BetweenanivilMenu.java",
           "src/main/java/net/mcreator/brokensmpgodshards/network/BetweenanivilButtonMessage.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Betweenify",
@@ -1082,8 +1019,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "BetweentrapPlayerCollidesWithThisEntity",
@@ -1109,8 +1045,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Betweentrap",
@@ -1125,8 +1060,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/BetweentrapRenderer.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweentrap_spawn_egg.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "BetweenBearTrapSchematic",
@@ -1139,8 +1073,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/between_bear_trap_schematic.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenBearTrapSchematicItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "JunktrapSchematic",
@@ -1153,8 +1086,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/JunktrapSchematicItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/junktrap_schematic.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "TurretBetween",
@@ -1170,8 +1102,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/TurretBetweenEntity.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/turret_between_spawn_egg.json"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Turret",
@@ -1184,8 +1115,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/turret.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/TurretItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "TurretRightclicked",
@@ -1219,8 +1149,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Betweenturretschematic",
@@ -1233,8 +1162,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweenturretschematic.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenturretschematicItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Scrapmakerv1res",
@@ -1246,8 +1174,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/scrapmakerv_1res.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Beetweenainvilres",
@@ -1259,8 +1186,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/beetweenainvilres.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Butcherkniferes",
@@ -1273,8 +1199,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/ButcherkniferesItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/butcherkniferes.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "RusticCrosbow",
@@ -1287,8 +1212,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/RusticCrosbowRenderer.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/RusticCrosbowEntity.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Crosbowrustic",
@@ -1301,8 +1225,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/crosbowrustic.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/CrosbowrusticItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "RusticCrosbowProjectileHitsLivingEntity",
@@ -1320,8 +1243,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Schamaticknifes",
@@ -1334,8 +1256,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/SchamaticknifesItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/schamaticknifes.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Butchersrage",
@@ -1345,8 +1266,7 @@
       "registry_name": "butchersrage",
       "metadata": {
         "files": []
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Butchersrageres",
@@ -1358,8 +1278,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/ButchersrageresBrewingRecipe.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "BleedingEffectStartedapplied",
@@ -1381,8 +1300,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Bleeding",
@@ -1394,8 +1312,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/potion/BleedingMobEffect.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Nailsinabottel",
@@ -1405,8 +1322,7 @@
       "registry_name": "nailsinabottel",
       "metadata": {
         "files": []
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Nailsinabottleres",
@@ -1418,8 +1334,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/NailsinabottleresBrewingRecipe.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Scrapbunch",
@@ -1432,8 +1347,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/scrapbunch.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/ScrapbunchItem.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "ElecRangedItemShootsProjectile",
@@ -1455,8 +1369,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Bolt",
@@ -1468,8 +1381,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/entity/BoltEntity.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "BoltProjectileHitsBlock",
@@ -1499,8 +1411,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Electronbullet",
@@ -1512,8 +1423,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/electronbullet.json"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Adminpc",
@@ -1527,8 +1437,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/gui/AdminpcScreen.java",
           "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/AdminpcMenu.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Detonator",
@@ -1542,8 +1451,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/DetonatorItem.java",
           "src/main/java/net/mcreator/brokensmpgodshards/item/inventory/DetonatorInventoryCapability.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Admineye",
@@ -1558,8 +1466,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/AdmineyeEntity.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/AdmineyeRenderer.java"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Adminpcbutten",
@@ -1593,8 +1500,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Slice",
@@ -1607,8 +1513,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/SliceEntity.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/SliceRenderer.java"
         ]
-      },
-      "path": "~/The first upadate"
+      }
     },
     {
       "name": "Areaeffect",
@@ -1642,8 +1547,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Damage5x5Flopydisk",
@@ -1656,8 +1560,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/Damage5x5FlopydiskItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/damage_5x_5_flopydisk.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Summonminnon",
@@ -1670,8 +1573,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/SummonminnonItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/summonminnon.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "ETM",
@@ -1713,8 +1615,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "CodestaffRightclicked",
@@ -1748,8 +1649,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Disk5x5",
@@ -1761,8 +1661,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/disk_5x_5.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Summondisk",
@@ -1774,8 +1673,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/summondisk.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Code",
@@ -1787,8 +1685,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/code.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "ETMPCres",
@@ -1800,8 +1697,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/etmp_cres.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "DayDisk",
@@ -1814,8 +1710,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/DayDiskItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/day_disk.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "NightDisk",
@@ -1828,8 +1723,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/NightDiskItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/night_disk.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Daydiskres",
@@ -1841,8 +1735,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/daydiskres.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Nightdiskres",
@@ -1854,8 +1747,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/nightdiskres.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Diskday",
@@ -1889,8 +1781,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Nightdiskpro",
@@ -1924,8 +1815,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "CodestaffItemInHandTick",
@@ -1943,8 +1833,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "AdminStaffofTime",
@@ -1958,8 +1847,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/admin_staffof_time.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/AdminStaffofTimeItem.java"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Cooldown",
@@ -1972,8 +1860,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/procedures/CooldownProcedure.java"
         ],
         "dependencies": []
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "StaffofTime",
@@ -1985,8 +1872,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/network/StaffofTimeMessage.java"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "BetweencutlessRightclicked",
@@ -2008,8 +1894,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Betweenthrowingknife",
@@ -2022,8 +1907,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenthrowingknifeItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweenthrowingknife.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "KnifeProjectileHitsLivingEntity",
@@ -2041,8 +1925,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Knife",
@@ -2055,8 +1938,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/KnifeEntity.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/KnifeRenderer.java"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Bleedingiscool",
@@ -2068,8 +1950,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/damage_type/bleedingiscool.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Betweenthrowing",
@@ -2082,8 +1963,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenthrowingItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/betweenthrowing.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Bandage",
@@ -2096,8 +1976,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/bandage.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/BandageItem.java"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "BandageRightclicked",
@@ -2119,8 +1998,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "HerbCrusher",
@@ -2133,8 +2011,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/herb_crusher.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/HerbCrusherItem.java"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "EyeCoreherbs",
@@ -2147,8 +2024,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/eye_coreherbs.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/EyeCoreherbsItem.java"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Eyecorebandage",
@@ -2160,8 +2036,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/eyecorebandage.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Herb",
@@ -2173,8 +2048,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/herb.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Herbcrusherres",
@@ -2186,8 +2060,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/herbcrusherres.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Eyecore",
@@ -2206,8 +2079,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/block/eyecore.json",
           "src/main/resources/assets/broken_smp_god_shards/blockstates/eyecore.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Throwingknife",
@@ -2219,8 +2091,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/throwingknife.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "GrappelRightclicked",
@@ -2254,8 +2125,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Grappal",
@@ -2267,8 +2137,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/entity/GrappalEntity.java"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Grappel",
@@ -2281,8 +2150,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/GrappelItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/grappel.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Hook",
@@ -2295,8 +2163,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/HookItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/hook.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Resgrappal",
@@ -2308,8 +2175,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/resgrappal.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Grappelhand",
@@ -2321,8 +2187,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/grappelhand.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Coins",
@@ -2335,8 +2200,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/coins.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/CoinsItem.java"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Coinsres",
@@ -2348,8 +2212,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/coinsres.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Betweencaves",
@@ -2361,8 +2224,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/worldgen/biome/betweencaves.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Crowbar",
@@ -2375,8 +2237,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/CrowbarItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/crowbar.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Crow",
@@ -2388,8 +2249,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/crow.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Grassbetween",
@@ -2405,8 +2265,7 @@
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/grassbetween.json",
           "src/main/resources/assets/broken_smp_god_shards/blockstates/grassbetween.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Zombietraveleranimated",
@@ -2422,8 +2281,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/zombietraveleranimated_spawn_egg.json",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ZombietraveleranimatedModel.java"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Butcher",
@@ -2439,8 +2297,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/butcher_spawn_egg.json",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/ButcherModel.java"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Butcherloot",
@@ -2452,8 +2309,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/butcher.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Enity609animated",
@@ -2469,8 +2325,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedModel.java",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedRenderer.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "BetweenwaterMobplayerCollidesBlock",
@@ -2488,8 +2343,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Enity609animatedloot",
@@ -2501,8 +2355,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/enity_609animated.json"
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "CrowbarRightclickedOnBlock",
@@ -2540,8 +2393,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Enity609animatedpic",
@@ -2557,8 +2409,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedpicRenderer.java",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/model/Enity609animatedpicModel.java"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "MimicanimatedEntityIsHurt",
@@ -2588,8 +2439,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/update 2"
+      }
     },
     {
       "name": "Mimicanimated",
@@ -2606,8 +2456,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/mimicanimated_spawn_egg.json",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/mimicanimated_biome_modifier.json"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "GuradBOT",
@@ -2623,8 +2472,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/GuradBOTEntity.java",
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/gurad_bot_biome_modifier.json"
         ]
-      },
-      "path": "~/The first upadate/Enitys"
+      }
     },
     {
       "name": "Thebutcher",
@@ -2636,8 +2484,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/enchantment/ThebutcherEnchantment.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "TheSpitter",
@@ -2654,8 +2501,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/the_spitter_spawn_egg.json",
           "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntity.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "Acid",
@@ -2668,8 +2514,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/acid.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/AcidItem.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "AcidLivingEntityIsHitWithItem",
@@ -2687,8 +2532,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "BetweenVirusRightclicked",
@@ -2710,8 +2554,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "BetweenVirus",
@@ -2724,8 +2567,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/BetweenVirusItem.java",
           "src/main/resources/assets/broken_smp_god_shards/models/item/between_virus.json"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "Enity609pic",
@@ -2737,8 +2579,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/enity_609pic.json"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "TheLivingBetweenForest",
@@ -2750,8 +2591,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/worldgen/biome/the_living_between_forest.json"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "BetweenBlock",
@@ -2769,8 +2609,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/block/between_block_full.json",
           "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenBlockBlock.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "Enity609animatedThisEntityKillsAnotherOne",
@@ -2800,8 +2639,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "BetweenBlockEntityCollidesInTheBlock",
@@ -2819,8 +2657,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "SpeedFlower",
@@ -2836,8 +2673,7 @@
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/speed_flower.json",
           "src/main/resources/assets/broken_smp_god_shards/models/item/speed_flower.json"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "Speedbubblemush",
@@ -2850,8 +2686,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/speedbubblemush.json",
           "src/main/java/net/mcreator/brokensmpgodshards/item/SpeedbubblemushItem.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "Speedbubblepotion",
@@ -2863,8 +2698,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/SpeedbubblepotionBrewingRecipe.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "Speedmushrecipe",
@@ -2876,8 +2710,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/recipes/speed_mush_recipe.json"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "SpeedmushPainting",
@@ -2887,8 +2720,7 @@
       "registry_name": "speedmush_painting",
       "metadata": {
         "files": []
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "VirusButcher",
@@ -2904,8 +2736,7 @@
           "src/main/resources/data/broken_smp_god_shards/forge/biome_modifier/virus_butcher_biome_modifier.json",
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/VirusButcherRenderer.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "TheSpitterThisEntityKillsAnotherOne",
@@ -2935,8 +2766,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "VirusButcherLoottable",
@@ -2948,8 +2778,7 @@
         "files": [
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/virus_butcher.json"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "BetweenifyEffectEffectExpires",
@@ -2983,8 +2812,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "BetweenifyEffectEffectStartedapplied",
@@ -3002,8 +2830,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "BetweenifyEffect",
@@ -3015,8 +2842,7 @@
         "files": [
           "src/main/java/net/mcreator/brokensmpgodshards/potion/BetweenifyEffectMobEffect.java"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "Lab2",
@@ -3030,8 +2856,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/structure_set/lab_2.json",
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/lab_2.json"
         ]
-      },
-      "path": "~/virus update"
+      }
     },
     {
       "name": "Death_609",
@@ -3061,8 +2886,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/virus update"
+      }
     }
   ],
   "variable_elements": [
@@ -3283,14 +3107,14 @@
       "entity.broken_smp_god_shards.butcher": "Butcher",
       "painting.broken_smp_god_shards.speedmush_painting.title": "Speed mush",
       "block.broken_smp_god_shards.between_block": "Virus Corpse Block",
-      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
-      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
       "item.broken_smp_god_shards.butcherknife": "Butcher knife",
+      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
+      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
       "item.broken_smp_god_shards.bullet": "Electron Bullet",
       "item.broken_smp_god_shards.reamotebasic": "Basic Remote tape",
       "subtitles.huh": "",
-      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
       "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
+      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
       "entity.broken_smp_god_shards.entity_611": "Entity 6 1 1",
       "gui.broken_smp_god_shards.adminpc.label_day": "day",
       "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
@@ -3404,6 +3228,14 @@
     "name": "~",
     "children": [
       {
+        "name": "update 2",
+        "children": []
+      },
+      {
+        "name": "virus update",
+        "children": []
+      },
+      {
         "name": "The first upadate",
         "children": [
           {
@@ -3423,14 +3255,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "update 2",
-        "children": []
-      },
-      {
-        "name": "virus update",
-        "children": []
       }
     ]
   },
