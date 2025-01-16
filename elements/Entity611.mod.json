@@ -145,7 +145,17 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 2,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Betweencaves"
+      },
+      {
+        "value": "CUSTOM:TheINbetween"
+      },
+      {
+        "value": "CUSTOM:TheLivingBetweenForest"
+      }
+    ],
     "spawnInDungeons": true,
     "raidSpawnsCount": [
       4,

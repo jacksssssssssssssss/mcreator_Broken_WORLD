@@ -56,10 +56,6 @@ public class BrokenSmpGodShardsModBiomes {
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1.0003f, 1.0001f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "the_i_nbetween")))));
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
-							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "the_living_between_forest")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
-							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "the_living_between_forest")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "betweencaves")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
@@ -75,8 +71,6 @@ public class BrokenSmpGodShardsModBiomes {
 								BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState()));
 						addSurfaceRule(surfaceRules, 1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "the_i_nbetween")), Blocks.GRASS_BLOCK.defaultBlockState(),
 								BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState()));
-						addSurfaceRule(surfaceRules, 1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "the_living_between_forest")),
-								BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
@@ -97,6 +91,10 @@ public class BrokenSmpGodShardsModBiomes {
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "betweencaves")))));
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "betweencaves")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
+							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "the_living_between_forest")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
+							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "the_living_between_forest")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
 							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
@@ -111,6 +109,8 @@ public class BrokenSmpGodShardsModBiomes {
 								BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState()));
 						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "betweencaves")), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(),
 								BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState()));
+						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("broken_smp_god_shards", "the_living_between_forest")),
+								BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState(), BrokenSmpGodShardsModBlocks.BETWEENSTONE.get().defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());

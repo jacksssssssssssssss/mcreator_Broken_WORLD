@@ -1,8 +1,10 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "broken_smp_god_shards:betweencaves",
+    "broken_smp_god_shards:the_i_nbetween",
+    "broken_smp_god_shards:the_living_between_forest"
+  ],
   "spawners": {
     "type": "broken_smp_god_shards:turret_between",
     "weight": 20,

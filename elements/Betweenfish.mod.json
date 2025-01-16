@@ -145,6 +145,12 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:TheINbetween"
+      },
+      {
+        "value": "CUSTOM:Betweencaves"
+      },
+      {
+        "value": "CUSTOM:TheLivingBetweenForest"
       }
     ],
     "spawnInDungeons": false,

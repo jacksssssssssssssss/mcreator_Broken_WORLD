@@ -146,6 +146,15 @@
     "restrictionBiomes": [
       {
         "value": "roofed_forest"
+      },
+      {
+        "value": "CUSTOM:Betweencaves"
+      },
+      {
+        "value": "CUSTOM:TheINbetween"
+      },
+      {
+        "value": "CUSTOM:TheLivingBetweenForest"
       }
     ],
     "spawnInDungeons": false,

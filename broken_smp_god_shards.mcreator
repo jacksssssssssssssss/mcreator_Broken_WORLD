@@ -1419,7 +1419,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/NailsinabottleresBrewingRecipe.java"
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "Scrapbunch",
@@ -1433,7 +1433,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/ScrapbunchItem.java"
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "ElecRangedItemShootsProjectile",
@@ -1456,7 +1456,7 @@
           }
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "Bolt",
@@ -1469,7 +1469,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/BoltEntity.java"
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "BoltProjectileHitsBlock",
@@ -1500,7 +1500,7 @@
           }
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "Electronbullet",
@@ -1513,7 +1513,7 @@
           "src/main/resources/data/broken_smp_god_shards/recipes/electronbullet.json"
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "Adminpc",
@@ -1528,7 +1528,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/world/inventory/AdminpcMenu.java"
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "Detonator",
@@ -1543,7 +1543,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/inventory/DetonatorInventoryCapability.java"
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "Admineye",
@@ -1594,7 +1594,7 @@
           }
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "Slice",
@@ -1608,7 +1608,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/SliceRenderer.java"
         ]
       },
-      "path": "~/The first upadate"
+      "path": "~/update 2"
     },
     {
       "name": "Areaeffect",
@@ -3270,8 +3270,8 @@
       "biome.broken_smp_god_shards.the_living_between_forest": "The dead Between Forest",
       "item.broken_smp_god_shards.betweenturretschematic": "Between Turret Schematic",
       "subtitles.spitters": "",
-      "block.broken_smp_god_shards.grassbetween": "Grassbetween",
       "item.broken_smp_god_shards.virus_butcher_spawn_egg": "Virus Butcher Spawn Egg",
+      "block.broken_smp_god_shards.grassbetween": "Grassbetween",
       "block.broken_smp_god_shards.scrapmakerv_1": "Scrapmaker V1",
       "entity.broken_smp_god_shards.mimicanimated": "Mimic Animated",
       "subtitles.gas": "",
@@ -3283,14 +3283,14 @@
       "entity.broken_smp_god_shards.butcher": "Butcher",
       "painting.broken_smp_god_shards.speedmush_painting.title": "Speed mush",
       "block.broken_smp_god_shards.between_block": "Virus Corpse Block",
-      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
-      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
       "item.broken_smp_god_shards.butcherknife": "Butcher knife",
+      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
+      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
       "item.broken_smp_god_shards.bullet": "Electron Bullet",
       "item.broken_smp_god_shards.reamotebasic": "Basic Remote tape",
       "subtitles.huh": "",
-      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
       "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
+      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
       "entity.broken_smp_god_shards.entity_611": "Entity 6 1 1",
       "gui.broken_smp_god_shards.adminpc.label_day": "day",
       "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
