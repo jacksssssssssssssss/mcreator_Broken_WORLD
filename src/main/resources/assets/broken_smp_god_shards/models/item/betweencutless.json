@@ -1,0 +1,7 @@
+{
+  "parent": "broken_smp_god_shards:custom/betweencutless",
+  "textures": {
+    "0": "broken_smp_god_shards:block/culess",
+    "particle": "broken_smp_god_shards:item/saber-export"
+  }
+}

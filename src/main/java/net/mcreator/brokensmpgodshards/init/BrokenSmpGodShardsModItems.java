@@ -54,6 +54,7 @@ import net.mcreator.brokensmpgodshards.item.BetweenturretschematicItem;
 import net.mcreator.brokensmpgodshards.item.BetweenthrowingknifeItem;
 import net.mcreator.brokensmpgodshards.item.BetweenthrowingItem;
 import net.mcreator.brokensmpgodshards.item.BetweenfleshbitsItem;
+import net.mcreator.brokensmpgodshards.item.BetweencutlessItem;
 import net.mcreator.brokensmpgodshards.item.BetweenVirusItem;
 import net.mcreator.brokensmpgodshards.item.BetweenIngotItem;
 import net.mcreator.brokensmpgodshards.item.BetweenBearTrapSchematicItem;
@@ -135,6 +136,7 @@ public class BrokenSmpGodShardsModItems {
 	public static final RegistryObject<Item> SPEED_FLOWER = block(BrokenSmpGodShardsModBlocks.SPEED_FLOWER);
 	public static final RegistryObject<Item> SPEEDBUBBLEMUSH = REGISTRY.register("speedbubblemush", () -> new SpeedbubblemushItem());
 	public static final RegistryObject<Item> VIRUS_BUTCHER_SPAWN_EGG = REGISTRY.register("virus_butcher_spawn_egg", () -> new ForgeSpawnEggItem(BrokenSmpGodShardsModEntities.VIRUS_BUTCHER, -6750055, -3381760, new Item.Properties()));
+	public static final RegistryObject<Item> BETWEENCUTLESS = REGISTRY.register("betweencutless", () -> new BetweencutlessItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

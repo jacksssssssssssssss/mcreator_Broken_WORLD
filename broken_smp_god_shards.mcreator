@@ -2006,6 +2006,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2470,7 +2474,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/Enity609animatedRenderer.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "BetweenwaterMobplayerCollidesBlock",
@@ -2637,7 +2641,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/enchantment/ThebutcherEnchantment.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "TheSpitter",
@@ -2655,7 +2659,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/entity/TheSpitterEntity.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "Acid",
@@ -2669,7 +2673,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/AcidItem.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "AcidLivingEntityIsHitWithItem",
@@ -2688,7 +2692,7 @@
           }
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "BetweenVirusRightclicked",
@@ -2711,7 +2715,7 @@
           }
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "BetweenVirus",
@@ -2725,7 +2729,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/between_virus.json"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "Enity609pic",
@@ -2738,7 +2742,7 @@
           "src/main/resources/data/broken_smp_god_shards/loot_tables/entities/enity_609pic.json"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "TheLivingBetweenForest",
@@ -2751,7 +2755,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/biome/the_living_between_forest.json"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "BetweenBlock",
@@ -2770,7 +2774,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/block/BetweenBlockBlock.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "Enity609animatedThisEntityKillsAnotherOne",
@@ -2801,7 +2805,7 @@
           }
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "BetweenBlockEntityCollidesInTheBlock",
@@ -2820,7 +2824,7 @@
           }
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "SpeedFlower",
@@ -2837,7 +2841,7 @@
           "src/main/resources/assets/broken_smp_god_shards/models/item/speed_flower.json"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "Speedbubblemush",
@@ -2851,7 +2855,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/item/SpeedbubblemushItem.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "Speedbubblepotion",
@@ -2864,7 +2868,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/SpeedbubblepotionBrewingRecipe.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "Speedmushrecipe",
@@ -2877,7 +2881,7 @@
           "src/main/resources/data/broken_smp_god_shards/recipes/speed_mush_recipe.json"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "SpeedmushPainting",
@@ -2888,7 +2892,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "VirusButcher",
@@ -2905,7 +2909,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/client/renderer/VirusButcherRenderer.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "TheSpitterThisEntityKillsAnotherOne",
@@ -2936,7 +2940,7 @@
           }
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "VirusButcherLoottable",
@@ -2949,7 +2953,7 @@
           "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/virus_butcher.json"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "BetweenifyEffectEffectExpires",
@@ -2984,7 +2988,7 @@
           }
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "BetweenifyEffectEffectStartedapplied",
@@ -3003,7 +3007,7 @@
           }
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "BetweenifyEffect",
@@ -3016,7 +3020,7 @@
           "src/main/java/net/mcreator/brokensmpgodshards/potion/BetweenifyEffectMobEffect.java"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "Lab2",
@@ -3031,7 +3035,7 @@
           "src/main/resources/data/broken_smp_god_shards/worldgen/template_pool/lab_2.json"
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
     },
     {
       "name": "Death_609",
@@ -3062,7 +3066,21 @@
           }
         ]
       },
-      "path": "~/virus update"
+      "path": "~/Virus update part 1"
+    },
+    {
+      "name": "Betweencutless",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betweencutless",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_smp_god_shards/models/item/betweencutless.json",
+          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweencutlessItem.java"
+        ]
+      },
+      "path": "~/combat update"
     }
   ],
   "variable_elements": [
@@ -3259,6 +3277,7 @@
       "~CUSTOM:TheLivingBetweenForest"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Betweencutless",
       "~CUSTOM:Crowbar",
       "~CUSTOM:Butcherknife"
     ]
@@ -3270,8 +3289,8 @@
       "biome.broken_smp_god_shards.the_living_between_forest": "The dead Between Forest",
       "item.broken_smp_god_shards.betweenturretschematic": "Between Turret Schematic",
       "subtitles.spitters": "",
-      "item.broken_smp_god_shards.virus_butcher_spawn_egg": "Virus Butcher Spawn Egg",
       "block.broken_smp_god_shards.grassbetween": "Grassbetween",
+      "item.broken_smp_god_shards.virus_butcher_spawn_egg": "Virus Butcher Spawn Egg",
       "block.broken_smp_god_shards.scrapmakerv_1": "Scrapmaker V1",
       "entity.broken_smp_god_shards.mimicanimated": "Mimic Animated",
       "subtitles.gas": "",
@@ -3283,14 +3302,14 @@
       "entity.broken_smp_god_shards.butcher": "Butcher",
       "painting.broken_smp_god_shards.speedmush_painting.title": "Speed mush",
       "block.broken_smp_god_shards.between_block": "Virus Corpse Block",
-      "item.broken_smp_god_shards.butcherknife": "Butcher knife",
-      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
       "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
+      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
+      "item.broken_smp_god_shards.butcherknife": "Butcher knife",
       "item.broken_smp_god_shards.bullet": "Electron Bullet",
       "item.broken_smp_god_shards.reamotebasic": "Basic Remote tape",
       "subtitles.huh": "",
-      "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
       "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
+      "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
       "entity.broken_smp_god_shards.entity_611": "Entity 6 1 1",
       "gui.broken_smp_god_shards.adminpc.label_day": "day",
       "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
@@ -3382,6 +3401,7 @@
       "gui.broken_smp_god_shards.adminpc.label_the_admins_eye": "The Admin\u0027s ETS",
       "entity.broken_smp_god_shards.admineye": "ESM BOT",
       "subtitles.illager": "",
+      "item.broken_smp_god_shards.betweencutless": "Between Cutless",
       "subtitles.og8bit": "",
       "item.minecraft.lingering_potion.effect.nailsinabottel": "Lingering Potion of Nailsinabottel",
       "item.broken_smp_god_shards.enity_609animatedpic_spawn_egg": "Enity 6 0 9 pic Spawn Egg",
@@ -3429,7 +3449,11 @@
         "children": []
       },
       {
-        "name": "virus update",
+        "name": "Virus update part 1",
+        "children": []
+      },
+      {
+        "name": "combat update",
         "children": []
       }
     ]

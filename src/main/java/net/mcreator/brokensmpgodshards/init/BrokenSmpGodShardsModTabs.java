@@ -83,6 +83,7 @@ public class BrokenSmpGodShardsModTabs {
 				tabData.accept(BrokenSmpGodShardsModItems.BETWEEN_VIRUS.get());
 				tabData.accept(BrokenSmpGodShardsModBlocks.BETWEEN_BLOCK.get().asItem());
 				tabData.accept(BrokenSmpGodShardsModItems.VIRUS_BUTCHER_SPAWN_EGG.get());
+				tabData.accept(BrokenSmpGodShardsModItems.BETWEENCUTLESS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
