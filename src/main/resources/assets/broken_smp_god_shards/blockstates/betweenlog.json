@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "broken_smp_god_shards:block/betweenlog"
+    },
+    "facing=east": {
+      "model": "broken_smp_god_shards:block/betweenlog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "broken_smp_god_shards:block/betweenlog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "broken_smp_god_shards:block/betweenlog",
+      "y": 270
     }
   }
 }

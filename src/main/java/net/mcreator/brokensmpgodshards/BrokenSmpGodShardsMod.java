@@ -21,7 +21,6 @@ import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModTabs;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModSounds;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModPotions;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModParticleTypes;
-import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModPaintings;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModMobEffects;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModMenus;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModItems;
@@ -59,7 +58,7 @@ public class BrokenSmpGodShardsMod {
 
 		BrokenSmpGodShardsModMobEffects.REGISTRY.register(bus);
 		BrokenSmpGodShardsModPotions.REGISTRY.register(bus);
-		BrokenSmpGodShardsModPaintings.REGISTRY.register(bus);
+
 		BrokenSmpGodShardsModParticleTypes.REGISTRY.register(bus);
 
 		BrokenSmpGodShardsModMenus.REGISTRY.register(bus);

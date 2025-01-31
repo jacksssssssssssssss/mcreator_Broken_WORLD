@@ -162,21 +162,11 @@
     ],
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 14,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Betweencaves"
-      },
-      {
-        "value": "CUSTOM:TheINbetween"
-      },
-      {
-        "value": "CUSTOM:TheLivingBetweenForest"
-      }
-    ],
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [],
     "spawnInDungeons": false
   }
 }

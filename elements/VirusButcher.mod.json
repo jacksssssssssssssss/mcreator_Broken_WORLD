@@ -107,7 +107,7 @@
       "value": ""
     },
     "whenMobDies": {
-      "name": "Enity609animatedThisEntityKillsAnotherOne"
+      "name": "VirusButcherEntityDies"
     },
     "hasAI": true,
     "aiBase": "(none)",
@@ -159,21 +159,11 @@
     ],
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 22,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Betweencaves"
-      },
-      {
-        "value": "CUSTOM:TheINbetween"
-      },
-      {
-        "value": "CUSTOM:TheLivingBetweenForest"
-      }
-    ],
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [],
     "spawnInDungeons": false
   }
 }

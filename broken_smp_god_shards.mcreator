@@ -2827,74 +2827,6 @@
       "path": "~/Virus update part 1"
     },
     {
-      "name": "SpeedFlower",
-      "type": "plant",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speed_flower",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/broken_smp_god_shards/blockstates/speed_flower.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/block/SpeedFlowerBlock.java",
-          "src/main/resources/assets/broken_smp_god_shards/models/block/speed_flower.json",
-          "src/main/resources/data/broken_smp_god_shards/loot_tables/blocks/speed_flower.json",
-          "src/main/resources/assets/broken_smp_god_shards/models/item/speed_flower.json"
-        ]
-      },
-      "path": "~/Virus update part 1"
-    },
-    {
-      "name": "Speedbubblemush",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speedbubblemush",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/speedbubblemush.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/SpeedbubblemushItem.java"
-        ]
-      },
-      "path": "~/Virus update part 1"
-    },
-    {
-      "name": "Speedbubblepotion",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speedbubblepotion",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/brokensmpgodshards/recipes/brewing/SpeedbubblepotionBrewingRecipe.java"
-        ]
-      },
-      "path": "~/Virus update part 1"
-    },
-    {
-      "name": "Speedmushrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speedmushrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/broken_smp_god_shards/recipes/speed_mush_recipe.json"
-        ]
-      },
-      "path": "~/Virus update part 1"
-    },
-    {
-      "name": "SpeedmushPainting",
-      "type": "painting",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speedmush_painting",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Virus update part 1"
-    },
-    {
       "name": "VirusButcher",
       "type": "animatedentity",
       "compiles": true,
@@ -3069,18 +3001,35 @@
       "path": "~/Virus update part 1"
     },
     {
-      "name": "Betweencutless",
-      "type": "tool",
+      "name": "VirusButcherEntityDies",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "betweencutless",
+      "registry_name": "virus_butcher_entity_dies",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_smp_god_shards/models/item/betweencutless.json",
-          "src/main/java/net/mcreator/brokensmpgodshards/item/BetweencutlessItem.java"
+          "src/main/java/net/mcreator/brokensmpgodshards/procedures/VirusButcherEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/combat update"
+      "path": "~/Virus update part 1"
     }
   ],
   "variable_elements": [
@@ -3277,7 +3226,6 @@
       "~CUSTOM:TheLivingBetweenForest"
     ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:Betweencutless",
       "~CUSTOM:Crowbar",
       "~CUSTOM:Butcherknife"
     ]
@@ -3289,8 +3237,8 @@
       "biome.broken_smp_god_shards.the_living_between_forest": "The dead Between Forest",
       "item.broken_smp_god_shards.betweenturretschematic": "Between Turret Schematic",
       "subtitles.spitters": "",
-      "block.broken_smp_god_shards.grassbetween": "Grassbetween",
       "item.broken_smp_god_shards.virus_butcher_spawn_egg": "Virus Butcher Spawn Egg",
+      "block.broken_smp_god_shards.grassbetween": "Grassbetween",
       "block.broken_smp_god_shards.scrapmakerv_1": "Scrapmaker V1",
       "entity.broken_smp_god_shards.mimicanimated": "Mimic Animated",
       "subtitles.gas": "",
@@ -3300,16 +3248,15 @@
       "key.broken_smp_god_shards.deathbetween": "Deathbetween",
       "item.broken_smp_god_shards.acid": "Acid",
       "entity.broken_smp_god_shards.butcher": "Butcher",
-      "painting.broken_smp_god_shards.speedmush_painting.title": "Speed mush",
       "block.broken_smp_god_shards.between_block": "Virus Corpse Block",
-      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
-      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
       "item.broken_smp_god_shards.butcherknife": "Butcher knife",
+      "entity.broken_smp_god_shards.hummanhaz": "Humman Hazmat",
+      "death.attack.bleedingiscool.player": "%1$s has no more blood whilst trying to escape %2$s",
       "item.broken_smp_god_shards.bullet": "Electron Bullet",
       "item.broken_smp_god_shards.reamotebasic": "Basic Remote tape",
       "subtitles.huh": "",
-      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
       "item.broken_smp_god_shards.dndenergy": "Dnd Energy",
+      "item.broken_smp_god_shards.reamotebasic.desc": "2 out of 13",
       "entity.broken_smp_god_shards.entity_611": "Entity 6 1 1",
       "gui.broken_smp_god_shards.adminpc.label_day": "day",
       "item.broken_smp_god_shards.script_of_knockback": "Death in between script",
@@ -3384,7 +3331,6 @@
       "gui.broken_smp_god_shards.between_anvil.button_scrapify": "scrapify",
       "item.broken_smp_god_shards.turret": "Turret Reamote",
       "item.broken_smp_god_shards.scraptrap_spawn_egg": "Junk Trap Spawn Egg",
-      "item.broken_smp_god_shards.speedbubblemush": "Speed bubble mush",
       "item.broken_smp_god_shards.grappel": "Grappling Hook Glove",
       "item_group.broken_smp_god_shards.brokenworld": "Broken World",
       "subtitles.pic609": "",
@@ -3401,7 +3347,6 @@
       "gui.broken_smp_god_shards.adminpc.label_the_admins_eye": "The Admin\u0027s ETS",
       "entity.broken_smp_god_shards.admineye": "ESM BOT",
       "subtitles.illager": "",
-      "item.broken_smp_god_shards.betweencutless": "Between Cutless",
       "subtitles.og8bit": "",
       "item.minecraft.lingering_potion.effect.nailsinabottel": "Lingering Potion of Nailsinabottel",
       "item.broken_smp_god_shards.enity_609animatedpic_spawn_egg": "Enity 6 0 9 pic Spawn Egg",
@@ -3411,12 +3356,10 @@
       "gui.broken_smp_god_shards.between_anvil.label_scrap_maker": "Scrap Maker ",
       "item.minecraft.potion.effect.butchersrage": "Potion of Butchers Rage",
       "gui.broken_smp_god_shards.adminpc.label_night": "night",
-      "block.broken_smp_god_shards.speed_flower": "Speed bubble flower",
       "block.broken_smp_god_shards.eyecore": "Eyecore",
       "entity.broken_smp_god_shards.golemspawn": " Golem",
       "subtitles.pill": "",
       "item.broken_smp_god_shards.turret_between_spawn_egg": "Turret Between Spawn Egg",
-      "painting.broken_smp_god_shards.speedmush_painting.author": "DC",
       "key.broken_smp_god_shards.golem": "Golem"
     }
   },
@@ -3450,10 +3393,6 @@
       },
       {
         "name": "Virus update part 1",
-        "children": []
-      },
-      {
-        "name": "combat update",
         "children": []
       }
     ]

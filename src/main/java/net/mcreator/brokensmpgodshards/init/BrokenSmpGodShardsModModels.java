@@ -18,6 +18,7 @@ import net.mcreator.brokensmpgodshards.client.model.Modeltuffven;
 import net.mcreator.brokensmpgodshards.client.model.Modeltuff_ven;
 import net.mcreator.brokensmpgodshards.client.model.Modeltropicalfishbetween;
 import net.mcreator.brokensmpgodshards.client.model.Modelthrowing;
+import net.mcreator.brokensmpgodshards.client.model.Modeltaze_Converted;
 import net.mcreator.brokensmpgodshards.client.model.Modelslash;
 import net.mcreator.brokensmpgodshards.client.model.Modelsixoninepic;
 import net.mcreator.brokensmpgodshards.client.model.Modelsixo;
@@ -73,6 +74,7 @@ public class BrokenSmpGodShardsModModels {
 		event.registerLayerDefinition(ModelBetween_trap.LAYER_LOCATION, ModelBetween_trap::createBodyLayer);
 		event.registerLayerDefinition(Modelgolm.LAYER_LOCATION, Modelgolm::createBodyLayer);
 		event.registerLayerDefinition(Modelchestmimic.LAYER_LOCATION, Modelchestmimic::createBodyLayer);
+		event.registerLayerDefinition(Modeltaze_Converted.LAYER_LOCATION, Modeltaze_Converted::createBodyLayer);
 		event.registerLayerDefinition(Modelturret.LAYER_LOCATION, Modelturret::createBodyLayer);
 		event.registerLayerDefinition(Modelhummans.LAYER_LOCATION, Modelhummans::createBodyLayer);
 		event.registerLayerDefinition(Modeltropicalfishbetween.LAYER_LOCATION, Modeltropicalfishbetween::createBodyLayer);

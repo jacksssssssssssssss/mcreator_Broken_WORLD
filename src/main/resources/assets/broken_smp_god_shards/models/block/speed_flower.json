@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "broken_smp_god_shards:block/speed_bubble_texture",
-    "particle": "broken_smp_god_shards:block/speed_bubble_texture"
-  },
-  "render_type": "cutout"
-}

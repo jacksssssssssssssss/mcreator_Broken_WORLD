@@ -46,7 +46,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.brokensmpgodshards.procedures.Enity609animatedThisEntityKillsAnotherOneProcedure;
+import net.mcreator.brokensmpgodshards.procedures.VirusButcherEntityDiesProcedure;
 import net.mcreator.brokensmpgodshards.init.BrokenSmpGodShardsModEntities;
 
 public class VirusButcherEntity extends Monster implements GeoEntity {
@@ -136,7 +136,7 @@ public class VirusButcherEntity extends Monster implements GeoEntity {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		Enity609animatedThisEntityKillsAnotherOneProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		VirusButcherEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

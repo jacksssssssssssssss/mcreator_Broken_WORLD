@@ -111,6 +111,7 @@ public class Enity609animatedEntity extends Monster implements GeoEntity {
 		this.goalSelector.addGoal(5, new FloatGoal(this));
 		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, HummanhazEntity.class, true, false));
 		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Player.class, true, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, GuradBOTEntity.class, true, false));
 	}
 
 	@Override

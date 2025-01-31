@@ -83,7 +83,6 @@ public class BrokenSmpGodShardsModTabs {
 				tabData.accept(BrokenSmpGodShardsModItems.BETWEEN_VIRUS.get());
 				tabData.accept(BrokenSmpGodShardsModBlocks.BETWEEN_BLOCK.get().asItem());
 				tabData.accept(BrokenSmpGodShardsModItems.VIRUS_BUTCHER_SPAWN_EGG.get());
-				tabData.accept(BrokenSmpGodShardsModItems.BETWEENCUTLESS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -121,7 +120,6 @@ public class BrokenSmpGodShardsModTabs {
 
 			tabData.accept(BrokenSmpGodShardsModBlocks.OREBRINGER.get().asItem());
 			tabData.accept(BrokenSmpGodShardsModBlocks.BETWEENLOG.get().asItem());
-			tabData.accept(BrokenSmpGodShardsModBlocks.SPEED_FLOWER.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 
